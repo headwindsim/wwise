@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C081979E-B56C-4441-9033-1E469B995955}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="CabriG2_SDK_AIRCRAFT" ID="{C081979E-B56C-4441-9033-1E469B995955}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="winds" ID="{796A6EC6-6724-44F1-A58E-BCB1525C0E8B}" ShortID="825130959">
+					<ChildrenList>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_wind_sound" ID="{0263121F-4BDE-4E07-A42C-E629D6335FC9}">
+							<ChildrenList>
+								<Action Name="" ID="{083C28D8-41FD-4C79-A131-A90597228892}" ShortID="333450248">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="winds_cockpit" ID="{5E5D6C99-13D6-4D49-A289-EBB7B69663B9}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="miscalleneous" ID="{3B410C94-95D6-4801-9544-686C1F329E9E}" ShortID="961706621">
+					<ChildrenList>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_clutch" ID="{C91458C5-D163-42B4-9688-62FFC1180CA5}">
+							<ChildrenList>
+								<Action Name="" ID="{43839BD6-9A2C-4770-952A-A42B3127EB23}" ShortID="914896467">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_Clutch" ID="{45DE27C5-3D63-4A2F-ABD8-40C5A32C7796}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_circuit_battery_on" ID="{4F8685B6-76B3-491E-AA80-9316535C920D}">
+							<ChildrenList>
+								<Action Name="" ID="{B880FF02-2981-48E7-A407-86EA677460AB}" ShortID="192643195">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_foley_master_battery_loop" ID="{9237E688-E7CC-4406-8FB0-AACAB376A33D}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_circuit_battery_start" ID="{1CC9682E-5EB7-41F4-A0B8-CF398679A7C7}">
+							<ChildrenList>
+								<Action Name="" ID="{159A5877-3E4D-4F65-AED9-44DF08B548AA}" ShortID="540642792">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_foley_master_battery_start" ID="{FB550D38-E979-4B10-B978-EF8ED6BDCE38}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6E1C521B-4805-4862-8436-943E0E247032}" ShortID="868883475">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_foley_epm_start" ID="{E0788936-A91F-4589-ACC0-EC3BD902062F}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="grounds" ID="{572D0713-2C8A-4A06-9C34-A19B7F576FE1}" ShortID="447489046">
+					<ChildrenList>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_landing" ID="{3017AA87-68E1-4CE6-91CE-2720FEDB5751}">
+							<ChildrenList>
+								<Action Name="" ID="{7526D8D5-AB8A-4004-8E58-A944BF2E9A8D}" ShortID="665055814">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ground_touchdown" ID="{D8E4FB1A-9E3A-4353-AB04-0F234B9FD616}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AF7E6722-357C-4967-9866-9BBF334102D2}" ShortID="323462169">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="touchdown_LFE" ID="{E08F1D9B-BFB1-42BD-8AF4-8830B5845671}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="engine" ID="{AC9A0DF7-8665-47D6-9918-FA95A3D31D27}" ShortID="935446919">
+					<ChildrenList>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_eng1_starter" ID="{913957CC-F49F-479A-818B-EB93ED0CDADE}">
+							<ChildrenList>
+								<Action Name="" ID="{AF42AAC1-261B-4513-B6FC-B2C0FD849D8A}" ShortID="666387177">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_eng1_starter" ID="{8E9728E2-42A1-4397-97B6-8784260770D3}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_eng1_combustion" ID="{F23CBDF1-E599-4C41-BCFE-E93150EF979A}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="22"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{11C70C2E-DF93-4938-8FCE-1354F5DDD821}" ShortID="252183610">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_eng1_combustion" ID="{122B9C96-D18E-4D7B-B736-C379DD771B01}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_rotor1_rotor" ID="{1EFAE3CF-09C3-49B4-9263-83558F369ECB}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{73256191-5051-4A7F-9E39-DD49DCE79EBE}" ShortID="804475619">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_eng1_rotor" ID="{47373B28-830D-4836-AEFB-EA3727B371F2}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E3C1E87C-21A4-4E33-8D23-BF5E5C73FF8E}" ShortID="175487870">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soundseed_rotor" ID="{00BCCE38-4FA5-4402-9B16-66D9566B5862}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_rotor1_rotor_elevation" ID="{FC194260-AE68-4E37-9F44-0F4E593291C3}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{534DB9AB-49A6-4375-A375-B2B72FE43CE1}" ShortID="650670000">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_eng1_rotor_elevation" ID="{59569660-AA3A-4396-AC29-79D8986F1E12}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_rotor1_rotor_sides" ID="{A8F70A65-2B32-4111-8182-A0F6EAB70357}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{1FAD6A25-6733-4620-9AAE-C951AE2EF4E7}" ShortID="679479595">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_eng1_rotor_sides" ID="{13CB9E4A-E155-42F3-9E80-467E67C52F35}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_rotor2_rotor" ID="{9CDAE4B1-390C-4489-AB15-73DBC19CCAB6}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{1455C909-A29A-4EE4-8D6E-63778F75FF22}" ShortID="657975838">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_eng1_rotor_small" ID="{90B86701-285E-4CCB-9DFA-88322B2C1B6C}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_eng1_combustion_start" ID="{16661D22-4FF1-4C42-A48F-C68B07DE0386}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="22"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{619A12D9-8C3D-4795-991E-2518150E09DC}" ShortID="998575888">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.05"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_eng1_combustion_start" ID="{4092A9B5-BB2C-4A53-91EF-E519E6EA1465}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_eng1_shutdown" ID="{954D1AE9-423D-485F-B9F4-36F8BCB200A2}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="22"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{9AF93818-9378-4E08-A174-CB8D0D1BA916}" ShortID="931954861">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_eng1_shutdown" ID="{180DB154-DBD0-4113-944E-86F22BCC51BA}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="rattles" ID="{57E16523-097E-4980-A4CB-9D9E95CF93BE}" ShortID="48126243">
+					<ChildrenList>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_rattle_thrust" ID="{AAF4AD00-CB06-4690-ABC3-9B49B4D54BAD}">
+							<ChildrenList>
+								<Action Name="" ID="{0E9B617C-AC88-4047-8D60-E64E2F3A2A09}" ShortID="418886026">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="rattle_thrust" ID="{E55F158D-E35B-4ECF-AB10-07A3F8C97EEA}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="warnings" ID="{62F6611C-E932-42F6-8FF6-1D2EF7CEE27E}" ShortID="481944429">
+					<ChildrenList>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_epm_selftest" ID="{ABD91F5C-3835-4F5D-ACE8-1931F22207A5}">
+							<ChildrenList>
+								<Action Name="" ID="{BDDB1416-17CD-4019-A83B-F562D0DB67F6}" ShortID="604436419">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_foley_epm_selftest_M" ID="{2C1F5B2C-93E7-424C-9BBF-2FEE4ED45379}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_plasma_alarm" ID="{AF440CFE-A6D0-4BC2-9BBD-921A40BDB126}">
+							<ChildrenList>
+								<Action Name="" ID="{CED23A05-EAA3-4881-8C64-FEE3CFDC8A17}" ShortID="589684316">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_foley_plasma_alarm" ID="{ABE5A2BD-5904-4752-ACF2-7D5CAD4BDF8F}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="flight_control" ID="{A94DCCBE-188F-43DC-9B1B-7C78AD8EB7EF}" ShortID="4090661">
+					<ChildrenList>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_lateral_trim" ID="{323B49B7-1D9C-4F85-B53A-169EE60778F4}">
+							<ChildrenList>
+								<Action Name="" ID="{790F7DF2-EEFE-4BE9-A47F-A65D4D449388}" ShortID="959798165">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_foley_trim_lateral" ID="{9DD67865-6884-462D-9A3E-32B6D6450CAB}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CabriG2_SDK_AIRCRAFT_longitudinal_trim" ID="{223BCC09-9196-4843-B419-F4BEEBA3E0D8}">
+							<ChildrenList>
+								<Action Name="" ID="{0B313129-481D-42EA-B5A3-86898FDFEE9E}" ShortID="1046956274">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CabriG2_foley_trim_longitudinal" ID="{BBAA39DD-D6B4-48B7-BDB1-448B20786CEE}" WorkUnitID="{527C3F81-CE57-4A16-B783-721F9D326DAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

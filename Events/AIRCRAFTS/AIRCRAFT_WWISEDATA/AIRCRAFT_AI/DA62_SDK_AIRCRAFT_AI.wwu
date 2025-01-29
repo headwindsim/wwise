@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{465F3565-B325-4180-BA2D-9CD561E02A84}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="DA62_SDK_AIRCRAFT_AI" ID="{465F3565-B325-4180-BA2D-9CD561E02A84}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="engine" ID="{6F689DE2-DF1D-4757-A07A-C64CE8F68430}" ShortID="415208">
+					<ChildrenList>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_eng1_combustion" ID="{5068C33A-E006-4858-AD0E-B6B20D5AF571}">
+							<ChildrenList>
+								<Action Name="" ID="{8ED59389-4439-4155-A2E7-22DE49300628}" ShortID="569669732">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng1_left_combustion_outside" ID="{554D5A0E-DC6D-4891-924F-CB0FEA3B968A}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_eng1_prop" ID="{CBA72AF2-C108-42FE-8F9B-980C404DF83D}">
+							<ChildrenList>
+								<Action Name="" ID="{B28C1682-F99C-4BEE-BB6E-9792B05638FE}" ShortID="154546567">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng1_left_propeller_ouside" ID="{1A6D72B6-1D79-4364-A30E-F33525DB09D9}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_eng1_starter" ID="{5097464A-A7B7-4B56-B5AE-0C4EE3EA05FA}">
+							<ChildrenList>
+								<Action Name="" ID="{ACF1CEBF-C548-49AC-8067-6C341844903B}" ShortID="647161204">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng1_left_starter_outside" ID="{3E64A941-82BA-4DF0-978D-E85D89A73761}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_eng1_combustion_start" ID="{61401D90-9CCA-4E50-AEEB-2E1DD8E6DABC}">
+							<ChildrenList>
+								<Action Name="" ID="{680C8CBD-055F-4F42-9377-C29CDA221EA3}" ShortID="229527073">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng1_left_combustion_start_outside" ID="{855E264D-36EF-4A75-9B56-63AE53D8DF9C}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_eng1_shutdown" ID="{8C9D507F-EB28-4D7A-B81F-C4D2DB652B7E}">
+							<ChildrenList>
+								<Action Name="" ID="{BAE06220-E625-4B42-A082-364717598FE7}" ShortID="290087224">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng1_left_shutdown_outside" ID="{B2D2B114-284B-4049-88DE-E53E9E9B09B0}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_eng2_combustion" ID="{A7737059-0898-4DDE-BFD3-D2735119A496}">
+							<ChildrenList>
+								<Action Name="" ID="{1B653470-BAD9-4501-AD7F-A6EDD9BCC84C}" ShortID="28487949">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.4"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng2_right_combustion_outside" ID="{B184234A-0DA9-40BC-96F8-2AD575B5E83A}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_eng2_prop" ID="{1CD123F6-B71C-4ACE-AFB4-6397E961039C}">
+							<ChildrenList>
+								<Action Name="" ID="{DD067B3B-4B42-47C9-A4D5-7602F7D8C8A8}" ShortID="771312716">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.4"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng2_right_propeller_ouside" ID="{AD435759-03D6-4244-950D-06325207C3DF}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_eng2_starter" ID="{61D4D91D-255C-468E-AACA-0A9CDA969307}">
+							<ChildrenList>
+								<Action Name="" ID="{3FAD5D00-D1CB-429E-AA8E-5A4DE55453EF}" ShortID="24339591">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng2_right_starter_outside" ID="{87D526CE-B34E-493C-ADB3-779DFC7AD1AC}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_eng2_combustion_start" ID="{BDECD70E-1F8A-4416-B6F7-C586900F6FAC}">
+							<ChildrenList>
+								<Action Name="" ID="{9BE9F2FB-D800-47E2-A9C3-F89DFE6BF604}" ShortID="175010029">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng2_right_combustion_start_outside" ID="{1F05732B-C09D-45E0-BE20-4C04551C1B7C}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_eng2_shutdown" ID="{9757A6A1-6DF9-4109-BD66-11B130CCA217}">
+							<ChildrenList>
+								<Action Name="" ID="{D50B1A83-52E7-47A7-8988-5BF5C809F3B1}" ShortID="27071065">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng2_right_shutdown_outside" ID="{F9F975E0-7DAC-4ECA-B1B6-90D4851DA529}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_eng1_combustion_start_propeller" ID="{D33077CE-4161-4B34-81B1-C6C18D638A14}">
+							<ChildrenList>
+								<Action Name="" ID="{172657A6-D13A-4522-A42F-D2AD0FEC944E}" ShortID="779203057">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng1_left_propeller_start_outside" ID="{ECD5160E-25D3-422F-9729-48043F476FFD}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_eng1_shutdown_propeller" ID="{F3A6B3B6-40A5-4AE0-B57B-237339D9560E}">
+							<ChildrenList>
+								<Action Name="" ID="{36441C7C-0A84-4165-83C9-4B13DD3026D3}" ShortID="289151435">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng1_left_shutdown_prop_outside" ID="{E185EAAA-342D-4276-8C0A-71C41CA44754}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_eng2_combustion_start_propeller" ID="{84BB1058-0E6C-4AB1-AF60-F5EF4C053DB9}">
+							<ChildrenList>
+								<Action Name="" ID="{9C0A04E9-CFE9-42D1-A1FC-A351D7DF9116}" ShortID="520369158">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng2_right_propeller_start_outside" ID="{E7B6AC39-A6AC-44B7-A754-684E8697B40B}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_eng2_shutdown_propeller" ID="{D0D64321-1A9B-434E-9D88-6FDB36A446E1}">
+							<ChildrenList>
+								<Action Name="" ID="{08E20507-C1DB-450F-80B3-A1CE7EA54375}" ShortID="1010640403">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng2_right_shutdown_prop_outside" ID="{BBF419C8-0B90-4AB9-8E4E-6D6CF019D6C7}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ground" ID="{FE529676-431B-44B9-B0E4-1F94193B13D6}" ShortID="494620257">
+					<ChildrenList>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_left_touchdown" ID="{75464776-201D-4CEC-93A4-E5B26DED6F08}">
+							<ChildrenList>
+								<Action Name="" ID="{1EBEEA0C-2CA6-45A2-A357-6371D13ADA0E}" ShortID="45957770">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ground_touchdown_concrete" ID="{DA316F28-3D66-4AB8-BF59-E004DB030C09}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_right_touchdown" ID="{E11E6F00-23A2-4A96-B612-24E187EA7026}">
+							<ChildrenList>
+								<Action Name="" ID="{EBDFE210-DD0F-4A44-B2BC-7B5C3D684EF2}" ShortID="249580520">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ground_touchdown_concrete" ID="{DA316F28-3D66-4AB8-BF59-E004DB030C09}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ai_center_touchdown" ID="{C4677B39-2425-4A28-A230-2B722781A0C5}">
+							<ChildrenList>
+								<Action Name="" ID="{751B0371-CF89-4E55-8889-12135FEF21C1}" ShortID="43803902">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ground_touchdown_concrete" ID="{DA316F28-3D66-4AB8-BF59-E004DB030C09}" WorkUnitID="{6416E5D7-4CEA-429F-9B97-3C9F38954F95}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

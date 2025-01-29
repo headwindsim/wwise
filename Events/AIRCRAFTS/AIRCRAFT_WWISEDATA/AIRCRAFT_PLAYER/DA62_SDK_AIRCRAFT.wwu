@@ -1,0 +1,1843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{572558A3-77B1-4470-80A9-959AA388C144}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="DA62_SDK_AIRCRAFT" ID="{572558A3-77B1-4470-80A9-959AA388C144}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="engine" ID="{4B281312-66A7-4ADB-A78A-18F8154EB45D}" ShortID="1014647346">
+					<ChildrenList>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng1_combustion" ID="{2104DB83-6002-448E-92D7-7382E108EC93}">
+							<ChildrenList>
+								<Action Name="" ID="{B1AA11B8-1A4B-486D-8CBF-AF49FF7CD60A}" ShortID="860794818">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng1_left_combustion" ID="{BE9CB0AE-645F-4D63-9DBF-23B2EABD6864}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng1_prop" ID="{EE53A33D-4990-4322-8E20-40AB69FDECC4}">
+							<ChildrenList>
+								<Action Name="" ID="{C6FCAE73-EF42-41F8-A52D-BAF11D4443A3}" ShortID="603891141">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng1_left_prop" ID="{6B05F970-84A0-4AB9-AB13-DD173F01A370}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng1_starter" ID="{24105DD9-76E2-4BA7-A85E-D48C0EB7B487}">
+							<ChildrenList>
+								<Action Name="" ID="{6410CBDF-5670-4513-A501-846A3A113EA6}" ShortID="99888286">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng1_left_starter" ID="{08117775-B172-431B-B6ED-44BF94CF1879}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng1_combustion_start" ID="{10D9CF0F-643F-411E-87B8-F69871FF2049}">
+							<ChildrenList>
+								<Action Name="" ID="{17E04D22-CABD-4C4B-9569-6CF97F95714B}" ShortID="183199436">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng1_left_combustion_start" ID="{C713B24F-AB55-4939-9BDA-895C53D4AA59}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng1_shutdown" ID="{9B0CF750-0893-4A8B-8BE9-19EA5FA19597}">
+							<ChildrenList>
+								<Action Name="" ID="{5A7C744E-1782-4CE6-AFB9-76FF862ACED2}" ShortID="907913532">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng1_left_shutdown" ID="{D6344B3E-2743-4A90-ACFF-6C54E266F84F}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng2_combustion" ID="{356AF75E-1AFD-4AD3-88A3-6C8E07FA352E}">
+							<ChildrenList>
+								<Action Name="" ID="{3D513E1E-C3C4-43BB-8900-96C85AC3A90E}" ShortID="583626105">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.4"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng2_right_combustion" ID="{192F1E14-5BF0-42FC-AF80-32B2B34EA547}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng2_prop" ID="{1CC166C7-31AA-4675-B8EB-3DA72C97B689}">
+							<ChildrenList>
+								<Action Name="" ID="{BDA58210-FFE9-4D39-8D1F-9329634EE328}" ShortID="657566281">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.4"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng2_right_prop" ID="{F1C259B5-3700-40D0-9ABF-4E54F8C55215}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng2_starter" ID="{32D7200E-3B32-4495-B20C-F393A99741E2}">
+							<ChildrenList>
+								<Action Name="" ID="{6DAB5102-2C91-45EA-BA37-1273CE12B243}" ShortID="467479391">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng2_right_starter" ID="{4D0CC736-3639-4EC0-8306-8278164B8E36}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng2_combustion_start" ID="{0D5E7BB5-2AA3-4B09-B0E3-A7099CD57350}">
+							<ChildrenList>
+								<Action Name="" ID="{5A77C85C-47CC-43BD-AB42-F159CFB6C2CF}" ShortID="131548565">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng2_right_combustion_start" ID="{F4890D77-F377-4E76-9D74-110C8458205B}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng2_shutdown" ID="{DA346240-41FE-4A50-A91D-4C2D9278141D}">
+							<ChildrenList>
+								<Action Name="" ID="{8503138C-15BA-4647-B0A7-E1630D9CC93E}" ShortID="816273853">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng2_right_shutdown" ID="{E30D0BA3-DFB8-4F0C-8D07-7AC05D8DC103}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng1_combustion_start_propeller" ID="{117F86D9-B7C7-4A4B-9CC3-130C9B7C5FBF}">
+							<ChildrenList>
+								<Action Name="" ID="{6464ED42-EBFE-4CAF-B791-7F5B41D3F00B}" ShortID="721870974">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng1_left_combustion_start_propeller" ID="{026984C2-480F-4069-8087-E95F35B32196}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng1_shutdown_propeller" ID="{DD94AEFC-CB47-4829-AD3B-D55A40ACEA5D}">
+							<ChildrenList>
+								<Action Name="" ID="{ED48291F-301F-4E6A-90CD-C3EA154B8B71}" ShortID="760619784">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng1_left_shutdown_propeller" ID="{E83B7310-537F-41F0-8178-E3E96A7C5D8E}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng2_combustion_start_propeller" ID="{608D9EA3-D203-4D3D-815F-04ABF6E7459C}">
+							<ChildrenList>
+								<Action Name="" ID="{2989F439-667A-44E9-883C-507E151E09C3}" ShortID="644571243">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng2_right_combustion_start_propeller" ID="{188F91C4-CFFB-496D-B3C4-9E7C6FCDB78A}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng2_shutdown_propeller" ID="{5786FF32-A0C9-45B0-AD03-E05937834F9E}">
+							<ChildrenList>
+								<Action Name="" ID="{BC2862DE-7743-4A1B-A858-FC58EED81CD5}" ShortID="570595170">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_eng2_right_shutdown_propeller" ID="{8229A027-D669-4C33-BB30-41D7C89D88A0}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng1_combustion_exhaust" ID="{B5366DB9-167C-4A12-8C5D-0DD29D13D8C5}">
+							<ChildrenList>
+								<Action Name="" ID="{0925D96B-0CAF-4B6C-A7B2-5B5866C53624}" ShortID="1071457008">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_combustion_eng1_left_outside_exhaust_re20" ID="{6D0FCC49-5CFA-44DE-B48A-EA88ACB1AA9A}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng2_combustion_exhaust" ID="{A92AE01B-FBAF-44FB-A03F-AFCB623FBB4B}">
+							<ChildrenList>
+								<Action Name="" ID="{AD0C1F94-7802-4432-9365-103C220C0A4D}" ShortID="901912342">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.4"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_combustion_eng2_right_outside_exhaust_re20" ID="{D93F89B3-C317-4D36-A732-FC10BD37D2E7}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="grounds" ID="{1A8F3028-A9CB-42A0-82C2-074D5AAC6C04}" ShortID="610169897">
+					<ChildrenList>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_ground_roll" ID="{D52E77EE-2311-4E3B-91EF-464D2A370858}">
+							<ChildrenList>
+								<Action Name="" ID="{E56A8739-AD13-4B4B-97F3-BAFF5CF9B823}" ShortID="153499655">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ground_roll" ID="{5179A280-5C73-4330-8E50-B819B59BAF2E}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_right_touchdown" ID="{8B14EDAD-19F8-46D0-9CF0-5D67F4DDF685}">
+							<ChildrenList>
+								<Action Name="" ID="{8EF7388B-7B71-4B03-ADE8-AD27B85518C4}" ShortID="15708524">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ground_touchdown" ID="{9F525BC6-74E8-4F1F-A088-0BF1539D93D0}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_left_touchdown" ID="{3C0E2BCA-F330-498B-ACA9-FFABC987F2E9}">
+							<ChildrenList>
+								<Action Name="" ID="{34202FDA-75A2-4815-9D3D-DCFF10E8C346}" ShortID="373897374">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ground_touchdown" ID="{9F525BC6-74E8-4F1F-A088-0BF1539D93D0}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_center_touchdown" ID="{38EE7082-9CEE-4515-892E-7C36271F7EF2}">
+							<ChildrenList>
+								<Action Name="" ID="{86E4353E-1E96-4B50-852E-AE77F6DA2A18}" ShortID="653425579">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ground_touchdown" ID="{9F525BC6-74E8-4F1F-A088-0BF1539D93D0}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_rattle_ground" ID="{051BCD45-7AF8-4710-8C66-BA0E0D6BCA8A}">
+							<ChildrenList>
+								<Action Name="" ID="{920A8A4B-42D8-49C5-9B9F-2CC35C55F119}" ShortID="727734645">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="rattles_ground" ID="{1E082A4C-DCE3-4263-977E-6E2BC100082E}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="miscalleneous" ID="{4B34D2F9-5C48-41B1-8047-9A3A5142AC8C}" ShortID="263644588">
+					<ChildrenList>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_gyro_sound" ID="{E807A526-B71B-473B-A0C8-FE4A4C9F20C0}">
+							<ChildrenList>
+								<Action Name="" ID="{EA717D53-BE46-487B-8E83-11D20D78BC99}" ShortID="226496403">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_instru_gyro_04" ID="{9E4C3433-9C90-4417-98B4-2346196C2899}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_fuel_pump1_on" ID="{56ABC4ED-4D98-4E81-A585-CAE650E2229D}">
+							<ChildrenList>
+								<Action Name="" ID="{4AC969A3-560E-40B3-AAAD-1BAE43CC895A}" ShortID="528353908">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_fuel_transfer_01" ID="{B04B3BE3-E8C3-4232-AAC0-A2163CFA89CA}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_fuel_pump2_on" ID="{256D0E3A-72EF-40E8-8D82-FA7CF66791AC}">
+							<ChildrenList>
+								<Action Name="" ID="{534570B0-1096-4D57-A79B-0316E080FE69}" ShortID="787592481">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_fuel_transfer_02" ID="{765E8E7A-B19A-4B30-8992-69939FFD458A}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_circuit_as1000_mfd" ID="{08EB0B6F-738E-451D-865F-70A182A35DC8}">
+							<ChildrenList>
+								<Action Name="" ID="{4B7688E8-4FC2-4346-AD35-7E0D3E935938}" ShortID="286880065">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_instru_as1000_circuit_ventilation_mfd" ID="{5B83F794-006D-4469-A740-46AFAC77B245}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_circuit_battery" ID="{D2D9F33B-9739-4393-A9E6-1EA2A176FF4B}">
+							<ChildrenList>
+								<Action Name="" ID="{A6639397-05CF-4360-A7DF-2FDB6E88B4BD}" ShortID="190890923">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_instru_as1000_circuit_battery" ID="{C304EFCF-37F5-43DB-89E4-760A4E3BAF5D}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_circuit_as1000_pfd" ID="{137FC1DF-AFFC-4701-A3C3-0627A3BDB079}">
+							<ChildrenList>
+								<Action Name="" ID="{5879A6DB-080A-41AC-BF6C-7511BA646214}" ShortID="578406752">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Da62_instru_ventil_loop" ID="{039E5499-6FA8-4842-8EC8-5B203AAE252F}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_hydraulic_pump" ID="{09E0912B-9D2D-404C-AB85-6E5400B2698B}">
+							<ChildrenList>
+								<Action Name="" ID="{46E0E078-9943-48AE-BCA7-BF6057CEACAA}" ShortID="925217193">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="da62_gear_pump" ID="{821F5E44-00FD-42BC-A095-36CFE3C6FBA7}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng2_exhaust_cooling" ID="{4E4AC90E-C72F-4140-B164-B2F0DFEC1579}">
+							<ChildrenList>
+								<Action Name="" ID="{7ABBC1AE-0BE8-4B00-8B93-09900859D6A3}" ShortID="94788458">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_exhaust_cooling_02" ID="{54A4CB3C-0385-4E1F-AA32-B4A76D9710C0}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_eng1_exhaust_cooling" ID="{150E6AD9-9BB6-4890-913B-78C31CE2E04B}">
+							<ChildrenList>
+								<Action Name="" ID="{512B0EA9-5E26-472D-A8BD-8260C0C94D76}" ShortID="673686465">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_exhaust_cooling_01" ID="{610BF3E5-A7C7-444E-95CB-560E9DEA8CD0}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_fuel_transfert1" ID="{1E2EE90B-9719-4CBD-B242-E838D4B9DFAA}">
+							<ChildrenList>
+								<Action Name="" ID="{6691B419-2E1D-4EA8-A655-81DCE1647F51}" ShortID="994040853">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_fuel_transfer_01" ID="{B04B3BE3-E8C3-4232-AAC0-A2163CFA89CA}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_fuel_transfert2" ID="{5F33CD85-F2D0-4F00-BB50-578DED1DF8D7}">
+							<ChildrenList>
+								<Action Name="" ID="{18D21DE0-A95C-40EC-A69C-0F7ED5E107EF}" ShortID="415566085">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_fuel_transfer_02" ID="{765E8E7A-B19A-4B30-8992-69939FFD458A}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="winds" ID="{53EC9546-6F27-4825-A3FB-12C6102F9E85}" ShortID="769240000">
+					<ChildrenList>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_wind_sound" ID="{CDB078A4-07BE-446B-AFBC-009282152349}">
+							<ChildrenList>
+								<Action Name="" ID="{1462F8E3-092F-44CF-8BEA-38464DCE7AA5}" ShortID="864481801">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="wind_sound" ID="{BF241D10-488E-40D6-9056-54F0240F6894}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="instruments" ID="{2005A143-EAF1-4DA6-BD2B-62E50CD01F1B}" ShortID="319878569">
+					<ChildrenList>
+						<Folder Name="G1000" ID="{E1403E14-ACEA-4B00-992B-771D535C0FFA}" ShortID="333100041">
+							<ChildrenList>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_as3000_knob_push_button_on" ID="{6BCCFF94-BAF7-4386-9F0E-14BC0E58A44E}">
+									<ChildrenList>
+										<Action Name="" ID="{B7386D71-D94B-41F2-8BCB-C9489599B0CD}" ShortID="861867785">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_g1000_knob_push_button_on" ID="{8800A8E3-D287-41A5-8D17-12B09F3DB312}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_as3000_push_button_off" ID="{984ADFBD-518D-4DF9-A02C-D27A9C3BF082}">
+									<ChildrenList>
+										<Action Name="" ID="{F94D9FAB-CCE0-49A3-AD05-581A2EC8FC54}" ShortID="216424330">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_g1000_push_button_off" ID="{03495ECA-23F8-4804-AB73-6E7C9B058E07}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_as3000_push_button_on" ID="{4A3CC602-849B-44C3-A2EB-03BC92313B55}">
+									<ChildrenList>
+										<Action Name="" ID="{EDAC4CBF-9F87-4C4D-8DCE-C87C82404891}" ShortID="694498368">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_g1000_push_button_on" ID="{FD0C0193-3C40-48ED-B1E4-D5651E9FC5A9}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_as3000_knob_push_button_off" ID="{9877FD4D-CBE2-435F-A813-73B2C943C2D6}">
+									<ChildrenList>
+										<Action Name="" ID="{EA795674-C5F7-4CB5-9707-85B68BCCB9D9}" ShortID="540474103">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_g1000_knob_push_button_off" ID="{FB7D3D51-7DD5-4C82-AD28-DF62A6ED6E1A}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_as3000_switch_off" ID="{6B97F6B3-B7C6-436F-93B8-B3C2FCBC7DEF}">
+									<ChildrenList>
+										<Action Name="" ID="{8786B5E5-B71C-4A01-9779-833EAE2E3C93}" ShortID="246764715">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_g1000_switch_off" ID="{7DEA156B-32A8-4234-B933-13AD771BF4BB}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_as3000_switch_on" ID="{3A905EDE-D4F7-460D-B617-9716F98E30FA}">
+									<ChildrenList>
+										<Action Name="" ID="{2087BAD3-9137-4296-8BE9-D7E4F6FB086C}" ShortID="837133317">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_g1000_switch_on" ID="{F47CFEEE-E5F4-44A0-9A4C-40E90FB6C26E}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_autopilot_push_button_on" ID="{D1D5E3DD-89AF-41D6-A498-974E19FA5CFF}">
+									<ChildrenList>
+										<Action Name="" ID="{4C835FFD-F1F2-4202-A3FE-5D88B7C4FC69}" ShortID="987507748">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_g1000_push_button_on" ID="{FD0C0193-3C40-48ED-B1E4-D5651E9FC5A9}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_autopilot_push_button_off" ID="{5FA3B611-6B46-490F-8C0D-55EBDEC3AB84}">
+									<ChildrenList>
+										<Action Name="" ID="{F9311991-461D-4871-B4BD-3967E21F64A4}" ShortID="733310166">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_g1000_push_button_off" ID="{03495ECA-23F8-4804-AB73-6E7C9B058E07}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_as3000_joystick" ID="{DC6B33BD-37EB-43F3-A7BB-6C20A5EB278A}">
+									<ChildrenList>
+										<Action Name="" ID="{87A0F46E-D1DB-400D-AA73-C646358E33E1}" ShortID="607869321">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_g1000_joystick" ID="{25809E00-38FB-41EA-A338-C60424AA9B9F}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_as3000_knob_turn" ID="{681EE575-F8E1-4139-89E0-A6A306546163}">
+									<ChildrenList>
+										<Action Name="" ID="{ED559B08-12F0-45A3-8DD4-5DB0F68BF2F4}" ShortID="797632985">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_g1000_knob_turn" ID="{9B1905EA-73BE-48D0-B9DD-6B1F8C48AADB}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_as3000_big_knob_turn" ID="{33DE275E-D9F7-4E39-BB2C-DF1B28F025CA}">
+									<ChildrenList>
+										<Action Name="" ID="{85E48C1C-8979-486D-ADCC-1A176C8AC4A0}" ShortID="687561818">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_g1000_big_knob_turn" ID="{AC59BC6F-B482-424D-89CC-6900A62B1746}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_autopilot_knob_push_button_on" ID="{BE000FA8-E74C-4740-9EBD-8ED651ACF199}">
+									<ChildrenList>
+										<Action Name="" ID="{36BD9702-2C4F-4AEF-A2FA-E93C37F0A693}" ShortID="421570130">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_g1000_autopilot_knob_heading_on" ID="{613837C5-E717-4293-A3FC-1AA29AB3F9E0}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_autopilot_knob_push_button_off" ID="{CA21584C-B741-4E33-9BCA-D551DC3C1E55}">
+									<ChildrenList>
+										<Action Name="" ID="{2C3CC734-80C1-4F83-83CD-E06EF822F5F6}" ShortID="700226346">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_g1000_autopilot_knob_heading_off" ID="{2CA8A419-FC91-40E6-8CC3-7B74E2FF72DE}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="common" ID="{3CF55BEC-07BD-4C6C-9839-01E8FE996914}" ShortID="25437379">
+							<ChildrenList>
+								<Folder Name="light" ID="{4E8F898D-4259-43A1-9CA0-62B9429352D4}" ShortID="386905626">
+									<ChildrenList>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_safety_elt_switch" ID="{B16DAEBF-1FB1-487C-9F40-63B43D006318}">
+											<ChildrenList>
+												<Action Name="" ID="{1C2D6EAA-68AF-4C94-867E-8E706F06182D}" ShortID="319053956">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_on" ID="{2A08961D-7B6E-4210-AAA5-C08303841EEC}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_landing_light_switch_on" ID="{569235FC-1C34-481B-8D71-E3D012621B88}">
+											<ChildrenList>
+												<Action Name="" ID="{444E5EA7-86AE-4978-A99C-87868048B132}" ShortID="950227710">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_on" ID="{2A08961D-7B6E-4210-AAA5-C08303841EEC}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_landing_light_switch_off" ID="{54FFAA83-AF86-4289-9548-D279175EE5AC}">
+											<ChildrenList>
+												<Action Name="" ID="{7E0F8EEC-6169-4D83-BF47-4BFEE554DB73}" ShortID="840599754">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_off" ID="{A8B212E6-1A26-426F-A2E2-CFF0D6D1CB92}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_taxi_light_switch_on" ID="{3DB355E1-F330-44A7-B9C5-9060BE0ED563}">
+											<ChildrenList>
+												<Action Name="" ID="{74320F36-1131-43DB-8C50-98A91243F37B}" ShortID="586074418">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_on" ID="{2A08961D-7B6E-4210-AAA5-C08303841EEC}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_taxi_light_switch_off" ID="{FBB77A01-4164-4416-8699-703813EB1AE8}">
+											<ChildrenList>
+												<Action Name="" ID="{514C49FA-1D9D-4F39-B564-1A66F9FBB971}" ShortID="715858213">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_off" ID="{A8B212E6-1A26-426F-A2E2-CFF0D6D1CB92}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_nav_light_switch_on" ID="{A7C5DD03-D611-4776-B3F2-745F6121E1A7}">
+											<ChildrenList>
+												<Action Name="" ID="{D137EB9A-A735-4DAE-8754-867A71A89529}" ShortID="430872604">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_on" ID="{2A08961D-7B6E-4210-AAA5-C08303841EEC}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_nav_light_switch_off" ID="{7EA884B4-9619-4DB3-AB1C-6F8E2928D598}">
+											<ChildrenList>
+												<Action Name="" ID="{976173EF-8CFD-48C8-9A1F-86BBD867EB97}" ShortID="758399462">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_off" ID="{A8B212E6-1A26-426F-A2E2-CFF0D6D1CB92}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_strobe_light_switch_on" ID="{CBE38CF5-53ED-4BE3-8E32-8F3538CEFBD6}">
+											<ChildrenList>
+												<Action Name="" ID="{16A55A12-9414-478B-875A-8F3A06A51356}" ShortID="943771073">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_on" ID="{2A08961D-7B6E-4210-AAA5-C08303841EEC}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_strobe_light_switch_off" ID="{85F23F34-FB2E-4D20-9916-03A1D4765FEC}">
+											<ChildrenList>
+												<Action Name="" ID="{CE9973C0-9056-410C-AD4E-15E9E41A0E98}" ShortID="1068892366">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_off" ID="{A8B212E6-1A26-426F-A2E2-CFF0D6D1CB92}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_potentiometer_light_switch_on" ID="{CEF30CEC-6ED6-42F2-BEAE-38BC1DC9A7F7}">
+											<ChildrenList>
+												<Action Name="" ID="{D23D7A06-85A6-4D9E-9737-95CFD3E31AF3}" ShortID="486435619">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_on" ID="{2A08961D-7B6E-4210-AAA5-C08303841EEC}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_potentiometer_light_switch_off" ID="{68ACF9AF-E777-41B5-9A38-6048C35C2645}">
+											<ChildrenList>
+												<Action Name="" ID="{660AC109-6800-42A6-9810-EB9C06C34E49}" ShortID="998005606">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_off" ID="{A8B212E6-1A26-426F-A2E2-CFF0D6D1CB92}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_cabin_light_switch_on" ID="{6275CD3E-529F-40EA-B869-526CFAA09505}">
+											<ChildrenList>
+												<Action Name="" ID="{A4314F7D-A200-4F06-8390-9F93B9F11A8D}" ShortID="199637935">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_on" ID="{2A08961D-7B6E-4210-AAA5-C08303841EEC}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_cabin_light_switch_off" ID="{6862BF2F-9D1F-4807-9973-846B1DE2EFFD}">
+											<ChildrenList>
+												<Action Name="" ID="{E8A66BD1-FD31-4632-ADF7-FF06173CB96F}" ShortID="423788672">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_off" ID="{A8B212E6-1A26-426F-A2E2-CFF0D6D1CB92}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="pressurization" ID="{F34CC4D2-FCFB-4408-8CD8-9A88A62B758F}" ShortID="732226411">
+									<ChildrenList>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_pressurization_oxygen_switch_on" ID="{292EB6B2-7581-4662-A370-17DF6E553F0C}">
+											<ChildrenList>
+												<Action Name="" ID="{39490F51-F9D5-449D-949B-E285F61A8904}" ShortID="331886584">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_pressurization_oxygen_switch_on" ID="{AF4B038E-FF84-43B3-8BD2-5F5275B2B1A5}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_pressurization_oxygen_switch_off" ID="{C121440A-4AC5-454F-8234-9965E8247980}">
+											<ChildrenList>
+												<Action Name="" ID="{47F15D6E-1776-407D-A282-29AD3F367DDB}" ShortID="710782121">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_pressurization_oxygen_switch_off" ID="{9F35F7B3-C274-413A-BB12-0220B4BCC3FA}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="engine" ID="{ACA6321A-D6CA-4AB9-B74D-58F57C055ED2}" ShortID="334671336">
+									<ChildrenList>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_engine_master_switch_on" ID="{3D66E57C-060C-4693-B75C-6A8D6686D9FC}">
+											<ChildrenList>
+												<Action Name="" ID="{A8BCCB55-BA16-47DF-B59B-59CC8E1890B6}" ShortID="747927000">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_master_switch" ID="{5D6A1A8C-6BC5-4E6F-94E3-D3D3F348E875}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_starter_push_button_on" ID="{1C37AF2D-0550-4233-A3FB-9F0B029214C9}"/>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_engine_master_switch_off" ID="{CD7BF2BA-C7E7-4836-9ED7-713B71CCA06E}">
+											<ChildrenList>
+												<Action Name="" ID="{DA753189-8508-4A08-A164-0ED0103D4FB5}" ShortID="423830959">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_master_switch" ID="{5D6A1A8C-6BC5-4E6F-94E3-D3D3F348E875}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_avionic_switch_off" ID="{5F685E3B-7527-42AD-925B-6EDED36EB21E}">
+											<ChildrenList>
+												<Action Name="" ID="{02BE9268-C1E1-4DD9-A99B-39D24246451D}" ShortID="376801388">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_off" ID="{A8B212E6-1A26-426F-A2E2-CFF0D6D1CB92}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_avionic_switch_on" ID="{8860F072-E49C-401D-A1B5-ECF09CF573FC}">
+											<ChildrenList>
+												<Action Name="" ID="{95C31275-FF96-493F-BF01-C503D6B645AF}" ShortID="260127890">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_on" ID="{2A08961D-7B6E-4210-AAA5-C08303841EEC}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_battery_switch_on" ID="{42582EC3-3927-4B87-BA8A-CAF9B6E3C0E1}">
+											<ChildrenList>
+												<Action Name="" ID="{70245A4A-DA6F-41E0-A779-9C193E6AE834}" ShortID="919125214">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_on" ID="{2A08961D-7B6E-4210-AAA5-C08303841EEC}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_battery_switch_off" ID="{060377D8-9AEF-419C-9FA3-F3757F3B2E77}">
+											<ChildrenList>
+												<Action Name="" ID="{B47710BD-646A-4D6D-9689-D9FC18DE7020}" ShortID="172989789">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_off" ID="{A8B212E6-1A26-426F-A2E2-CFF0D6D1CB92}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_starter_push_button_off" ID="{DF3F8357-45FC-4DFD-803C-2CD87B87232E}"/>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_pitot_heat_switch_on" ID="{8E49713B-ED72-4AC2-AC1B-86E89A5FCB54}">
+											<ChildrenList>
+												<Action Name="" ID="{C5B97DD5-73DF-446A-A7A4-9624AD71B696}" ShortID="356630575">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_on" ID="{2A08961D-7B6E-4210-AAA5-C08303841EEC}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_pitot_heat_switch_off" ID="{54BC0603-97F4-435D-ADC5-4018C150F215}">
+											<ChildrenList>
+												<Action Name="" ID="{5D0EB496-3F75-4C6A-952D-E203BAAFC3F0}" ShortID="760585515">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_off" ID="{A8B212E6-1A26-426F-A2E2-CFF0D6D1CB92}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_alternator_switch_on" ID="{EF120DFB-763E-473C-A8A2-4373D09D0B51}">
+											<ChildrenList>
+												<Action Name="" ID="{8B3F8854-6875-435E-B473-8481A996EB2D}" ShortID="395906276">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_on" ID="{2A08961D-7B6E-4210-AAA5-C08303841EEC}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_alternator_switch_off" ID="{E3676F16-C85A-4FC2-85DE-357844261467}">
+											<ChildrenList>
+												<Action Name="" ID="{2EA58D91-319F-4E6C-89C1-CEE4E8CF9F9B}" ShortID="529711495">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_off" ID="{A8B212E6-1A26-426F-A2E2-CFF0D6D1CB92}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="fuel" ID="{A487DC89-71F6-4A15-A314-F8530B3C6F76}" ShortID="745411106">
+									<ChildrenList>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_fuel_transfer_switch_off" ID="{B701FA2B-2E7E-48E1-8A97-A6A252C6E061}">
+											<ChildrenList>
+												<Action Name="" ID="{5EA2B45A-B5FD-441D-B81A-5637445EEB9C}" ShortID="711998660">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_off" ID="{A8B212E6-1A26-426F-A2E2-CFF0D6D1CB92}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_fuel_transfer_switch_on" ID="{A15A076D-56E8-45F2-9B5A-614B020A5D8A}">
+											<ChildrenList>
+												<Action Name="" ID="{1788A82B-44CB-4C9D-9591-8D4CE616ECEC}" ShortID="869248441">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_on" ID="{2A08961D-7B6E-4210-AAA5-C08303841EEC}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_fuel_blocker_switch_on" ID="{97DE8F1F-2F87-4845-AF29-59C34D0DD960}">
+											<ChildrenList>
+												<Action Name="" ID="{11E612C3-C88E-44D3-926A-18FC995E1DE0}" ShortID="233262871">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_fuel_blockers" ID="{75ED379D-D6D2-478E-B569-A1773CDBFD3F}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_fuel_pump_switch_off" ID="{979BB077-9116-4CD7-99FA-4A8FB4353BED}">
+											<ChildrenList>
+												<Action Name="" ID="{9CF8819D-A737-440C-A773-F73F4CAC0E4E}" ShortID="490444317">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_off" ID="{A8B212E6-1A26-426F-A2E2-CFF0D6D1CB92}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_fuel_pump_switch_on" ID="{9B43FEAD-A197-412E-B58E-7B1415CF6C92}">
+											<ChildrenList>
+												<Action Name="" ID="{EBAA61CD-70FA-49B1-A2DE-FFD3206447A0}" ShortID="844710442">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_on" ID="{2A08961D-7B6E-4210-AAA5-C08303841EEC}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_fuel_blocker_switch_off" ID="{1E232023-F14F-46B6-8A36-C3C05AF90969}">
+											<ChildrenList>
+												<Action Name="" ID="{BF2D0038-DB25-4E9C-848D-124761FB58E5}" ShortID="1048167557">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_fuel_blockers" ID="{75ED379D-D6D2-478E-B569-A1773CDBFD3F}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_fuel_cutoff_crossfeed_switch" ID="{32DD29C4-616B-446B-8D27-BA4A6B4D30CB}">
+											<ChildrenList>
+												<Action Name="" ID="{3C71CFE1-4D6D-4C60-B4AD-D5893A61B01F}" ShortID="549173816">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_parking_brake_on" ID="{E0E64395-83EC-401F-AEDF-094411279364}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="levers" ID="{90A30F3D-1470-4E05-94EA-E8B7DD795CD0}" ShortID="94390870">
+									<ChildrenList>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_pressurization_bleed_switch" ID="{87C29231-8943-4D61-9E2E-43A03B73F6D9}">
+											<ChildrenList>
+												<Action Name="" ID="{0511B191-5A42-40A0-A12D-F1F26F3CA6E2}" ShortID="577056524">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_parking_brake_on" ID="{E0E64395-83EC-401F-AEDF-094411279364}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_parking_brake_switch_off" ID="{BDDE9116-CC57-488D-AC1F-8584B1CA5793}">
+											<ChildrenList>
+												<Action Name="" ID="{5C908AEC-E509-42E0-9775-1A9B3A357B97}" ShortID="199912048">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_parking_brake_off" ID="{A24C3026-C5A7-4490-97F7-D22368BF075C}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_lever_fuel_selector" ID="{11127253-E815-4BCE-98E9-A55703F8FBD9}">
+											<ChildrenList>
+												<Action Name="" ID="{8A3A8FE5-0504-48D7-B93A-498B952844C5}" ShortID="346496741">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="DA62_fuel_selector_valve" ID="{0F569CEC-437D-4590-85BA-4E220D44B520}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_parking_brake_switch_on" ID="{86127120-26EB-4919-A404-4D1D6AF3921D}">
+											<ChildrenList>
+												<Action Name="" ID="{A7E9C4F4-DE50-4853-B817-74506A89576F}" ShortID="612297530">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_parking_brake_on" ID="{E0E64395-83EC-401F-AEDF-094411279364}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_cabin_heat_lever_on" ID="{4163FC30-9BB9-4771-B64A-8D64E9F1F9BC}">
+											<ChildrenList>
+												<Action Name="" ID="{1D4E31A6-87A9-42A8-B28C-ABBF00B8B1FC}" ShortID="50219187">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_parking_brake_on" ID="{E0E64395-83EC-401F-AEDF-094411279364}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_cabin_heat_lever_off" ID="{41EC08DA-E881-43FF-BB11-445B3460C3A2}">
+											<ChildrenList>
+												<Action Name="" ID="{A0C636D8-4EF5-4A29-8581-1009F1DE8BD0}" ShortID="33955141">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_parking_brake_off" ID="{A24C3026-C5A7-4490-97F7-D22368BF075C}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="yoke" ID="{5F17C8C7-942C-41AB-82AB-5B3EFB3E084E}" ShortID="106648851">
+									<ChildrenList>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_yoke_push_button_on" ID="{C73471C9-EF6C-4F1C-88D3-83C160F7276F}">
+											<ChildrenList>
+												<Action Name="" ID="{3FBBFF2E-D2F0-4C49-A847-77A101CA2068}" ShortID="640624029">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_little_push_buttons_on" ID="{0734DDE1-DAE2-484C-A9CE-EA39CA8FDFA6}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_yoke_push_button_off" ID="{8F9F5A6A-68F9-4A86-A6B0-1EBE04CD8C7D}">
+											<ChildrenList>
+												<Action Name="" ID="{59DD2807-CED6-4D17-87CD-4F678CB2A3FD}" ShortID="310411674">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_little_push_buttons_off" ID="{C6F31DEE-28DD-4A2B-9E14-B19F9334C6DE}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_DA62_SDK_AIRCRAFT_elevator_switch" ID="{B207EAB0-D109-4686-AF4D-D72E2A3E4150}">
+											<ChildrenList>
+												<Action Name="" ID="{6D06BCD7-699F-47D5-AFA2-DBE8BCB8C232}" ShortID="1059420085">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Da62_light_switch_on" ID="{2A08961D-7B6E-4210-AAA5-C08303841EEC}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="generic" ID="{1A91406D-F2C8-4055-96ED-F99993CC99C0}" ShortID="161918861">
+							<ChildrenList>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_button_switch_generic" ID="{F93E6176-B1BE-4075-8A4C-D46BD2E506CD}">
+									<ChildrenList>
+										<Action Name="" ID="{BC69B7FC-0766-4AA6-8B45-E5BC9B8217C2}" ShortID="764443275">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_generic_switch" ID="{6F99E43A-B00A-4210-B899-5BC6134EC699}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_lighting_knob_generic" ID="{35886FF0-6FE5-4D5B-BDE7-1B9B1C96DE7E}">
+									<ChildrenList>
+										<Action Name="" ID="{0AF2EEB2-EC79-44F2-B41B-47E258A0C027}" ShortID="1011093538">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_outer_knob" ID="{79C5EE03-827F-4932-9D2E-460989FDDF6C}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="specific" ID="{7B5A5E40-5B6B-4CA3-AE7E-F4CCFF077E00}" ShortID="895214463">
+							<ChildrenList>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_deice_windshield_switch_on" ID="{1B7020C1-C68D-466C-9449-19477ADF413D}">
+									<ChildrenList>
+										<Action Name="" ID="{393EA956-65F3-4FAA-8829-87268E0898D0}" ShortID="497560208">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_breaker_pull_01" ID="{27F5A056-6EF8-4BA4-BBBA-2D6A5EC59781}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_deice_windshield_switch_off" ID="{30CB6AD7-CE0D-4D6C-BE59-3646662BE433}">
+									<ChildrenList>
+										<Action Name="" ID="{37EF3C1D-B3FC-4AED-989F-4EB0D6E52264}" ShortID="444586677">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_breaker_pull_01" ID="{27F5A056-6EF8-4BA4-BBBA-2D6A5EC59781}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_deice_cover_alternate_switch_on" ID="{D9F1104F-D384-45BB-96FE-3B90FA0ADECF}">
+									<ChildrenList>
+										<Action Name="" ID="{F9B1B898-9800-43DF-84CA-FA6DC1F6C8B4}" ShortID="641566288">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="da62_cover_deice_alternate_open" ID="{CDB37ED1-CFD8-488D-A988-61D0A03CB68A}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_deice_max_momentary_push_on" ID="{846CE830-41D3-4F3D-A501-70ECE8C69659}">
+									<ChildrenList>
+										<Action Name="" ID="{34C5517B-27AB-46B7-8298-13FFC257C815}" ShortID="1062099966">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_breaker_pull_01" ID="{27F5A056-6EF8-4BA4-BBBA-2D6A5EC59781}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_deice_cover_alternate_switch_off" ID="{3C0BB9CC-DDE7-4C35-BA02-BFF04F281028}">
+									<ChildrenList>
+										<Action Name="" ID="{A2838362-ABA3-4ADA-8B47-03E71CDD565B}" ShortID="35165791">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="da62_cover_deice_alternate_close" ID="{309EAC32-B95E-4E61-B881-46FB2FD85B0C}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_deice_max_momentary_push_off" ID="{D812C1F7-CAEF-4000-8546-DC197F4BE70F}">
+									<ChildrenList>
+										<Action Name="" ID="{9A942E45-8400-46D0-AC8F-53AD5032B588}" ShortID="325330094">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_breaker_pull_01" ID="{27F5A056-6EF8-4BA4-BBBA-2D6A5EC59781}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_rudder_trim_knob_01" ID="{B3E00B3D-7B10-43F2-BC5C-12AD637D79A0}">
+									<Comment>temp fix for rudder trim stops
+</Comment>
+									<ChildrenList>
+										<Action Name="" ID="{5D81E90D-73A5-48D1-89A3-E29FEC880955}" ShortID="861633665">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="silence" ID="{F3832F0C-9EE4-4809-9E71-C3F320A561DA}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_rudder_trim_knob_02" ID="{578C7163-11B0-44F0-A346-43900D252233}">
+									<Comment>temp fix for rudder trim stops
+</Comment>
+									<ChildrenList>
+										<Action Name="" ID="{D20AA1F3-5FBB-4735-A3CD-87CE85BDF735}" ShortID="958422560">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="silence" ID="{F3832F0C-9EE4-4809-9E71-C3F320A561DA}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_elevator_trim_lever_01" ID="{9101575E-F431-490C-AABB-AF54B37EABA3}">
+									<Comment>temp fix for rudder trim stops
+</Comment>
+									<ChildrenList>
+										<Action Name="" ID="{64F12F49-20A5-4157-B7F6-BC9B6452C69B}" ShortID="474184262">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="silence" ID="{F3832F0C-9EE4-4809-9E71-C3F320A561DA}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_elevator_trim_lever_02" ID="{D5BA6AD4-A7BB-4BF9-92D2-C3EB310A75A2}">
+									<Comment>temp fix for rudder trim stops
+</Comment>
+									<ChildrenList>
+										<Action Name="" ID="{65A6FF0D-5CFD-4588-9205-A8CD76D1909F}" ShortID="157803337">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="silence" ID="{F3832F0C-9EE4-4809-9E71-C3F320A561DA}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="simvar" ID="{1FA398D4-9AB4-477E-B650-077513CDC17B}" ShortID="503357857">
+							<ChildrenList>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_gear_lever" ID="{07018552-FE36-4277-A6D7-69E3BBAAFB9B}">
+									<ChildrenList>
+										<Action Name="" ID="{F5593A05-3C05-435D-98C6-58F9C7126007}" ShortID="428655725">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_gear_lever" ID="{148820A6-62C5-4B2A-BFF5-CB8743D2F02E}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_lever_flaps" ID="{E43ED8E0-9904-4736-B88A-B4DB379B338A}">
+									<ChildrenList>
+										<Action Name="" ID="{2C0A2363-CA15-4F99-B3DC-F801BCC24F59}" ShortID="709980870">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_flaps_button" ID="{B080C511-4352-4561-8B12-FEF9BA5370C7}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_lever_throttle" ID="{70DD2E78-A764-402A-963C-98B1410ED3B2}">
+									<ChildrenList>
+										<Action Name="" ID="{55B9B279-FDE3-4E9F-A3C4-84AE5E6AA821}" ShortID="876073903">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_lever_throttle" ID="{C86B013E-6B37-43C3-B3F0-8C23A6D0EF7A}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_lever_trim_elevator" ID="{FCE43B00-2FC9-4735-B9CE-7425384C2A2E}">
+									<ChildrenList>
+										<Action Name="" ID="{5BF8D810-B491-4F5C-BA1E-20278A3710E9}" ShortID="751563222">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_elevator_trim" ID="{20F50C79-45F3-49D4-BE68-15BCF8A7C3D8}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_pedal_movement" ID="{3DAB60D7-8D21-4AEF-92DE-BE4789C7050E}">
+									<ChildrenList>
+										<Action Name="" ID="{81AFF3F7-1529-44DE-A247-C76A65DF2D3F}" ShortID="106592593">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_rudder_pedal" ID="{C9A233F9-9787-4ADB-A490-9BBD89D9A5B6}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_yoke_movement" ID="{5B45B0A7-5675-4163-83D9-A121B7E9931D}">
+									<ChildrenList>
+										<Action Name="" ID="{B1B2D98C-A998-4F03-BB2A-A3270D118D0F}" ShortID="650335453">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_yoke_movement" ID="{35963290-6C52-43EC-B267-D1116A8209E6}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_lever_throttle_2" ID="{5FE73E64-9659-41DF-B781-156A9956FE28}">
+									<ChildrenList>
+										<Action Name="" ID="{5AD93DC2-D3D5-49C1-8A5A-0520701567E9}" ShortID="704070247">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_lever_throttle" ID="{C86B013E-6B37-43C3-B3F0-8C23A6D0EF7A}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_lever_trim_rudder" ID="{BCB800F2-97A7-47E9-AF73-6719B53161B8}">
+									<ChildrenList>
+										<Action Name="" ID="{28F94E26-A7ED-4640-BB34-91ACE121E946}" ShortID="637481342">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_rudder_lever" ID="{5E67EEF9-2B21-49EA-A9D2-7CA5045A1037}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_brake_movement" ID="{3D5E34B9-68CB-4219-ACB6-D2D067256044}">
+									<ChildrenList>
+										<Action Name="" ID="{07D6DDF4-AA64-4AAA-8310-A383B8669447}" ShortID="480831449">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_brake_pedal" ID="{FE17E14E-D523-4B31-A4D9-557BF5F2002B}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_DA62_SDK_AIRCRAFT_parking_brake_movement" ID="{132A556D-3077-4FA2-A398-5C51EBF222CB}">
+									<ChildrenList>
+										<Action Name="" ID="{8BF0A61F-1F6F-4E91-982F-222D5EF02801}" ShortID="181376123">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Da62_parkingbrake_pedal" ID="{86E8493F-811F-49CB-B7E7-3669DD6E3333}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="rain" ID="{5ED75C2D-7B2F-4037-8C5D-937F7C3C12E5}" ShortID="267478326">
+					<ChildrenList>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_rain_sound" ID="{EF1BBFFC-E141-4AF2-A4E8-6416B6C7FA4B}">
+							<ChildrenList>
+								<Action Name="" ID="{2CB18948-9C0D-4AD3-860D-E6ACF489B700}" ShortID="215539673">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="rain_sound" ID="{C95E12A8-8A99-4DA9-9027-87DB95FB0941}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="rattles" ID="{7E131EEB-DFEE-43E2-B973-BA6F74DE0999}" ShortID="896769683">
+					<ChildrenList>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_rattle_kinematic" ID="{411E4239-B003-4FDE-B8F8-DEA54A541F45}">
+							<ChildrenList>
+								<Action Name="" ID="{62F511C0-2470-4C1F-9ACD-DAE07CB9DF4F}" ShortID="793982738">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{336E34FB-DB8B-4258-8993-DC55B264550A}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="0.5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="rattles_kinematic" ID="{D4D456AF-64ED-49BB-A51C-20B9057D1EED}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="flight_control" ID="{15993825-42E6-412C-A4A0-7C708E65C8BA}" ShortID="1006987601">
+					<ChildrenList>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_aileron_left" ID="{CBD53AE4-C318-4092-9572-5FC5B5D48D12}">
+							<ChildrenList>
+								<Action Name="" ID="{5513F697-989A-4407-8ABE-FDB819722606}" ShortID="288838155">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AC0E5DA3-0D09-415E-BC00-6575B3A97498}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="0.5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_aileron_left" ID="{83E09708-DDCE-451A-B4D4-E7AE4534715D}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_aileron_right" ID="{EED1A3BA-CD67-45BF-8CB4-CC9988CCA056}">
+							<ChildrenList>
+								<Action Name="" ID="{8B244B65-0A58-4CE3-A679-2A3E2F669714}" ShortID="402688663">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E5CB49B4-727E-48D0-BB8A-4BB18CE49E4E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="0.5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_aileron_right" ID="{9FF02D9B-D684-4D61-B4AD-8AB6DEE8DBFB}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_elevator" ID="{AA09F570-3528-473C-A603-2FD65FA2183C}">
+							<ChildrenList>
+								<Action Name="" ID="{4B153035-6AA8-4078-9017-C5DAEBB62C6C}" ShortID="933289244">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_elevator" ID="{E7C5BAC8-B412-4650-B59E-834FA8973F7F}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_flaps_left" ID="{75914777-4A91-4C5E-B653-634F78607DCD}">
+							<ChildrenList>
+								<Action Name="" ID="{8FAE6985-FD33-40B1-9E0E-C577DBC76FE6}" ShortID="520738062">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_flaps_left" ID="{D76B92D7-F4A9-4E21-9486-65A3FC521988}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_flaps_right" ID="{0E6D0DB1-9967-4AEE-BE90-FB651BB0EEC6}">
+							<ChildrenList>
+								<Action Name="" ID="{1D849A9D-EC6E-4C2D-BA39-4D0B341CEEC2}" ShortID="1013360035">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_flaps_right" ID="{80595FCA-06A3-4EA8-B31C-2FEE2007F77D}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_gear_movement" ID="{A85EDFEC-1C0B-4EF7-AAC5-77862D1E5938}">
+							<ChildrenList>
+								<Action Name="" ID="{222B08F6-A28C-4071-8D93-550CA824E52C}" ShortID="749908609">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Da62_gear" ID="{0A377CEA-D52C-4F4E-982E-BED53892533E}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_rudder" ID="{FE819A18-B10C-494F-AC4A-73CA8953F1D5}">
+							<ChildrenList>
+								<Action Name="" ID="{ED3B7041-B53D-4D43-B622-2A464A504CE1}" ShortID="229377913">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_rudder" ID="{73FA9F2F-F18F-4743-8D16-C8F986A8E92C}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="warnings" ID="{C2771590-E65C-45BF-9A0C-0115ED0C3864}" ShortID="1050466686">
+					<ChildrenList>
+						<Event Name="Play_DA62_SDK_AIRCRAFT_stall_warning" ID="{9D4BB671-EA44-49A8-A241-B922DC3BC4D0}">
+							<ChildrenList>
+								<Action Name="" ID="{469881B6-2724-4B12-8B48-4AA5FCB056ED}" ShortID="825333236">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DA62_instru_stall_warning_01" ID="{42070A29-A8AC-4062-B754-D920FD5BC5DF}" WorkUnitID="{64B1AC21-08AD-4920-A504-64C757828382}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="environment" ID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="common" ID="{3BF76EC9-A509-46F9-860D-5F84663E8D8D}" ShortID="203178065">
+					<ChildrenList>
+						<GameParameter Name="ENV_ELEVATION_AGL" ID="{46923156-0462-4964-B923-E32A53CACF7E}">
+							<Comment>unit : meter
+elevation of the listener from the earth surface in meter</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="ENV_COCKPIT_INSULATION" ID="{41B00B57-897A-4477-A19B-88C4DE7B46F4}">
+							<Comment>unit : dB
+Amount of cockpit insulation in dB
+</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-24"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="ENV_DOPPLERCENTS" ID="{05BB02CD-EBB3-47D1-9A4B-320AA5FE6C21}">
+							<Comment>unit : pitch cent
+Absolute cents shift caused by Doppler Effect
+</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="4800"/>
+								<Property Name="Min" Type="Real64" Value="-4800"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="ENV_MACH_CONE_ZONE" ID="{527FCF08-3957-4CB1-AD09-5552A5ABC028}">
+							<Comment>unit : bool 
+0 : camera is not in the mach cone zone
+1 : camera is in the mach cone zone</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="0.3"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="0.3"/>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="ENV_MACH_CONE_DEGREE" ID="{253A6B81-6D37-44B8-A48F-1474AB5ABB2A}">
+							<Comment>unit : degree
+degree of the mach cone from 180° to 0°</Comment>
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="180"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="ENV_DOPPLERCENTS_DERIVED" ID="{C86A3119-2F81-467E-A0D1-87D470C0FA16}">
+							<Comment>Derived doppler effect
+
+</Comment>
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="5"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="5"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-1000"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="250"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="250"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="10"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

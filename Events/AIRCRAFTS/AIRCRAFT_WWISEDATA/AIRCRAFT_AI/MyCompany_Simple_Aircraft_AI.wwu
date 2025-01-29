@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{490E4877-C14F-4586-8052-A3A5D71794DF}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="MyCompany_Simple_Aircraft_AI" ID="{490E4877-C14F-4586-8052-A3A5D71794DF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="engine" ID="{76FD20D7-8BD3-453E-B367-C64BA41F5E80}" ShortID="542713188">
+					<ChildrenList>
+						<Event Name="Play_MyCompany_Simple_Aircraft_AI_eng1_combustion" ID="{15631B44-001E-43A1-975E-021847737538}">
+							<ChildrenList>
+								<Action Name="" ID="{2B8097CA-7A15-4011-A7A9-5275524D6068}" ShortID="633026465">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="combustion" ID="{B27D19E9-EC32-4060-9F47-69204BAA42C0}" WorkUnitID="{AB3C5C07-49BD-4B39-B9A1-DE426F8E20E6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Simple_Aircraft_AI_eng1_prop" ID="{91B91B93-7CAF-452F-A9F0-D7659CB3847A}">
+							<ChildrenList>
+								<Action Name="" ID="{B310868D-5A6E-4D41-8B2F-87E7E584C68F}" ShortID="869720523">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="propeller" ID="{71F31EB7-FDA8-4B0D-BAC7-B98C8B1DAD7C}" WorkUnitID="{AB3C5C07-49BD-4B39-B9A1-DE426F8E20E6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Simple_Aircraft_AI_eng1_starter" ID="{6F069459-0438-485C-9927-F5FE00FE500F}">
+							<ChildrenList>
+								<Action Name="" ID="{CC2B38E7-9CFA-4EA3-AD8C-D06E365D0E61}" ShortID="715172757">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="starter" ID="{4D60C854-34D9-4B43-A351-25B7F1D98C3F}" WorkUnitID="{AB3C5C07-49BD-4B39-B9A1-DE426F8E20E6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Simple_Aircraft_AI_eng1_combustion_start" ID="{2685A605-9E06-49F4-AFF3-C3013AEB5D1A}">
+							<ChildrenList>
+								<Action Name="" ID="{4C65B8F4-37BD-4C1F-86D8-672EF8A85E69}" ShortID="312508410">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="combustion_start" ID="{D9A76D1F-4D41-4968-8D54-C1CD663958ED}" WorkUnitID="{AB3C5C07-49BD-4B39-B9A1-DE426F8E20E6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Simple_Aircraft_AI_eng1_shutdown" ID="{E03B55CF-4026-4EA5-AE12-54A9692C4166}">
+							<ChildrenList>
+								<Action Name="" ID="{539C1BB2-D978-4ABE-B432-86E65CB447F7}" ShortID="748977689">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="shutdown_combustion" ID="{71CBFD8D-1BB0-49D5-83B5-8151B2C746F2}" WorkUnitID="{AB3C5C07-49BD-4B39-B9A1-DE426F8E20E6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Simple_Aircraft_AI_eng1_shutdown_propeller" ID="{6E59FF6B-FD13-47F4-B2C3-5A2B089A9E37}">
+							<ChildrenList>
+								<Action Name="" ID="{6949318C-C23F-4282-8190-BB01CE7A3C02}" ShortID="101159047">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="shutdown_propeller" ID="{8D197E26-93D3-4750-A334-1DFAB699B9BA}" WorkUnitID="{AB3C5C07-49BD-4B39-B9A1-DE426F8E20E6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Simple_Aircraft_AI_eng1_combustion_start_propeller" ID="{3ADA31BA-579E-4410-A011-10F308FF2AFB}">
+							<ChildrenList>
+								<Action Name="" ID="{EDBE3912-B519-4208-8C5A-760F949F22D4}" ShortID="607108403">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="combustion_start_propeller" ID="{2614FB51-200C-4A25-820C-DA7BF1BD388D}" WorkUnitID="{AB3C5C07-49BD-4B39-B9A1-DE426F8E20E6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ground" ID="{EC6031FC-63A0-45F9-9E8C-6495FED26341}" ShortID="8593118">
+					<ChildrenList>
+						<Event Name="Play_MyCompany_Simple_Aircraft_AI_left_touchdown" ID="{C8353ABD-892C-4A25-8246-E28F8AA146D1}">
+							<ChildrenList>
+								<Action Name="" ID="{50704A02-9BA0-4F9B-992C-C3EB1853BFDA}" ShortID="1046606974">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ground_touchdown_concrete" ID="{7130F0D5-6D0D-4070-8CC8-149BDD0EF7C1}" WorkUnitID="{AB3C5C07-49BD-4B39-B9A1-DE426F8E20E6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Simple_Aircraft_AI_right_touchdown" ID="{637BAEE6-E3D6-4BCF-9BC1-E9EDDFC44D33}">
+							<ChildrenList>
+								<Action Name="" ID="{BF47FCA1-B8AE-4DFF-9046-D3FD6CE005B8}" ShortID="546961796">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ground_touchdown_concrete" ID="{7130F0D5-6D0D-4070-8CC8-149BDD0EF7C1}" WorkUnitID="{AB3C5C07-49BD-4B39-B9A1-DE426F8E20E6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Simple_Aircraft_AI_center_touchdown" ID="{FADF4136-9B24-47F3-9994-02DD2C122870}">
+							<ChildrenList>
+								<Action Name="" ID="{AFC98F3A-093A-475A-B63D-783F70AFE06C}" ShortID="154740247">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ground_touchdown_concrete" ID="{7130F0D5-6D0D-4070-8CC8-149BDD0EF7C1}" WorkUnitID="{AB3C5C07-49BD-4B39-B9A1-DE426F8E20E6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

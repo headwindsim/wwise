@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{972F629B-B1B4-44F5-9B2B-2693BFF72259}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="MyCompany_Gauge_Aircraft_AI" ID="{972F629B-B1B4-44F5-9B2B-2693BFF72259}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="engine" ID="{E6AD1696-56A8-4B26-A315-67D92EB7C005}" ShortID="944216472">
+					<ChildrenList>
+						<Event Name="Play_MyCompany_Gauge_Aircraft_AI_eng1_combustion" ID="{045908FB-6C21-45F8-88F6-75918119A862}">
+							<ChildrenList>
+								<Action Name="" ID="{25326A05-F3CC-4699-8DE3-16599E7E615B}" ShortID="280462920">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="combustion" ID="{ABFA9A9F-B2FE-49A0-B499-CCC768B24C2B}" WorkUnitID="{E68D8094-FE7D-4BC7-92D9-9A071229994D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Gauge_Aircraft_AI_eng1_prop" ID="{93C6B7D9-5E9B-4D66-8102-CC2E67A632F4}">
+							<ChildrenList>
+								<Action Name="" ID="{5AF60B45-3D54-43ED-B781-42D8FAEB7712}" ShortID="259810299">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="propeller" ID="{836DB48F-E878-4013-A6BD-E9F80FDD1637}" WorkUnitID="{E68D8094-FE7D-4BC7-92D9-9A071229994D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Gauge_Aircraft_AI_eng1_starter" ID="{B70BC999-4A04-43D8-BF1D-12FB67DDA1DB}">
+							<ChildrenList>
+								<Action Name="" ID="{B7FF86A4-F2D1-4501-829F-DA5FFBB3E3B7}" ShortID="1027688239">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="starter" ID="{ABAB1364-B7EF-4206-8D98-0823AA9E5B93}" WorkUnitID="{E68D8094-FE7D-4BC7-92D9-9A071229994D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Gauge_Aircraft_AI_eng1_combustion_start" ID="{A3DA2830-E0C0-44C4-BDB9-CBE2898D8E3B}">
+							<ChildrenList>
+								<Action Name="" ID="{A78AD3A1-6D49-4B71-943A-688E5352E264}" ShortID="387388039">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="combustion_start" ID="{ADF5C089-A948-42B0-AB89-80FD9B70EB4B}" WorkUnitID="{E68D8094-FE7D-4BC7-92D9-9A071229994D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Gauge_Aircraft_AI_eng1_shutdown" ID="{25B8B4CB-C42C-40CB-8C7E-86F6D32351F8}">
+							<ChildrenList>
+								<Action Name="" ID="{EF30E05E-9818-4121-95C8-95D9B9386C99}" ShortID="634658619">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="shutdown_combustion" ID="{B883CEBD-3418-4444-8097-544919AFE3A8}" WorkUnitID="{E68D8094-FE7D-4BC7-92D9-9A071229994D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Gauge_Aircraft_AI_eng1_shutdown_propeller" ID="{0BA8FA5A-BAFA-4B44-AAF9-2ED7EBD326FA}">
+							<ChildrenList>
+								<Action Name="" ID="{62C96855-5EAC-4E7B-BEF6-795DA8905963}" ShortID="1039928736">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="shutdown_propeller" ID="{1C0723AB-E4E1-41C3-A846-FFA027B13BF2}" WorkUnitID="{E68D8094-FE7D-4BC7-92D9-9A071229994D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Gauge_Aircraft_AI_eng1_combustion_start_propeller" ID="{2EC1AE54-2619-4444-81F4-95A899A3B20F}">
+							<ChildrenList>
+								<Action Name="" ID="{3E6EFBE4-1383-4F28-8EC0-7CC68C5FBA18}" ShortID="18760516">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="combustion_start_propeller" ID="{869EA967-9D82-4460-BEC2-98484CF5D318}" WorkUnitID="{E68D8094-FE7D-4BC7-92D9-9A071229994D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ground" ID="{6E53FCAE-B8A6-4879-A3A8-2928D18A72E4}" ShortID="768280058">
+					<ChildrenList>
+						<Event Name="Play_MyCompany_Gauge_Aircraft_AI_left_touchdown" ID="{89E1C102-B47A-4CEB-8702-96AAEA779EBD}">
+							<ChildrenList>
+								<Action Name="" ID="{2166CB4D-6D33-4A16-935A-E2C9663D74C7}" ShortID="857785090">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ground_touchdown_concrete" ID="{C7E4A451-2CD7-43BF-A307-5C1ABA9BA22A}" WorkUnitID="{E68D8094-FE7D-4BC7-92D9-9A071229994D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Gauge_Aircraft_AI_right_touchdown" ID="{E8BC2B16-05A9-4D1F-B356-54ABDCC8185E}">
+							<ChildrenList>
+								<Action Name="" ID="{E783696B-DB4A-47F1-8590-87886B865F91}" ShortID="819246827">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ground_touchdown_concrete" ID="{C7E4A451-2CD7-43BF-A307-5C1ABA9BA22A}" WorkUnitID="{E68D8094-FE7D-4BC7-92D9-9A071229994D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MyCompany_Gauge_Aircraft_AI_center_touchdown" ID="{4A23E0B4-7B0E-4B05-AF7E-7BD426A87926}">
+							<ChildrenList>
+								<Action Name="" ID="{E61FB8BB-2358-4781-9525-570BB695063E}" ShortID="880487885">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ground_touchdown_concrete" ID="{C7E4A451-2CD7-43BF-A307-5C1ABA9BA22A}" WorkUnitID="{E68D8094-FE7D-4BC7-92D9-9A071229994D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FB450691-58D4-4BFD-B80D-D1CEBF16AFB0}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Headwind" ID="{FB450691-58D4-4BFD-B80D-D1CEBF16AFB0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Headwind_A330neo" ID="{B3A366A9-6F1A-4FE1-B659-D7F833178086}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Headwind_A330neo" ID="{B2C41623-7955-41E9-A853-81699B355B2C}" WorkUnitID="{B2C41623-7955-41E9-A853-81699B355B2C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

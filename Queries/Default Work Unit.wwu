@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F8DED8C8-8446-4F8B-A52F-14041463B92D}" SchemaVersion="97">
+	<Queries>
+		<WorkUnit Name="Default Work Unit" ID="{F8DED8C8-8446-4F8B-A52F-14041463B92D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Query Name="New Query" ID="{DBD7E581-69F5-4524-88B0-6528BBB94ED7}">
+					<PropertyList>
+						<Property Name="LogicalOperator" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList/>
+					<ChildrenList>
+						<SearchCriteria Name="PositioningAttenuationShared By" ID="{21BDFA55-A6A5-4A81-A076-F624E12B997B}" SearchOperationID="{8870124D-9607-4E43-B895-2092138DF3C8}"/>
+						<SearchCriteria Name="PropertySource Of Override" ID="{1A2F26A4-60D1-4155-AD1F-39D76DBD8B3C}" SearchOperationID="{560736B7-4F5C-4EF7-9354-8666C6BBD70A}">
+							<PropertyList>
+								<Property Name="PropertyName" Type="string" Value="3DPosition"/>
+							</PropertyList>
+						</SearchCriteria>
+					</ChildrenList>
+				</Query>
+			</ChildrenList>
+		</WorkUnit>
+	</Queries>
+</WwiseDocument>

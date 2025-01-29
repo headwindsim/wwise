@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="97">
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1660214136" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Triggers\Default Work Unit.wwu" DateLow="1660214136" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Switches\surface.wwu" DateLow="1660214136" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Switches\Misc.wwu" DateLow="1669808974" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Switches\levers.wwu" DateLow="1669808974" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Switches\flight_control.wwu" DateLow="1669808974" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Switches\Default Work Unit.wwu" DateLow="1660214136" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\States\flow_states.wwu" DateLow="1669808974" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\States\Default Work Unit.wwu" DateLow="1660214136" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\States\aircraft.wwu" DateLow="1660214136" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1660214136" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\SoundBanks\Headwind.wwu" DateLow="1738094670" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\SoundBanks\Default Work Unit.wwu" DateLow="1669808974" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\SoundBanks\da62_sdk_aircraft.wwu" DateLow="1660214134" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\SoundBanks\CabriG2_sdk_aircraft.wwu" DateLow="1675686330" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\SoundBanks\aircrafts.wwu" DateLow="1738180073" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\SoundBanks\aircraft_ai.wwu" DateLow="1738180073" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Queries\Factory Queries.wwu" DateLow="1660214134" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Queries\Default Work Unit.wwu" DateLow="1738180009" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Presets\Factory Spatial Audio.wwu" DateLow="1660214134" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Presets\Default Work Unit.wwu" DateLow="1660214134" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Modulators\Default Work Unit.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Modulators\aircraft.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1675686330" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Game Parameters\simvar.wwu" DateLow="1675686330" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Game Parameters\npc.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Game Parameters\gui.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Game Parameters\gplay.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Game Parameters\environment.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Game Parameters\engine.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Game Parameters\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Game Parameters\control_signal.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Game Parameters\_NOT_IN_GAME\Factory SoundSeed Air Game Syncs.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\FlightSim.wproj" DateLow="1738092484" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\FlightSim.accs.wsettings" DateLow="1738094024" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Events\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\MyCompany_Simple_Aircraft.wwu" DateLow="1738179973" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\MyCompany_Gauge_Aircraft.wwu" DateLow="1738179981" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo.wwu" DateLow="1738094670" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\DA62_SDK_AIRCRAFT.wwu" DateLow="1738179993" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\CabriG2_SDK_AIRCRAFT.wwu" DateLow="1738180009" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\MyCompany_Simple_Aircraft_AI.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\MyCompany_Gauge_Aircraft_AI.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\DA62_SDK_AIRCRAFT_AI.wwu" DateLow="1675686330" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\CabriG2_SDK_AIRCRAFT_AI.wwu" DateLow="1675686330" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Effects\reverb_roomverb.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Effects\reverb_convolution.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Effects\meter.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Effects\flanger.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Effects\eq.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Effects\distortion.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Effects\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Effects\_NOT_IN_GAME\Factory Effects.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Conversion Settings\Default Work Unit.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Audio Devices\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Attenuations\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Attenuations\aircraft.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\MyCompany_Simple_Aircraft.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\MyCompany_Gauge_Aircraft.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo.wwu" DateLow="1738179958" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\DA62_SDK_AIRCRAFT.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Asobo_Cabri_G2.wwu" DateLow="1676369946" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\_Templates.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\_Template_Turboprop.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\_Template_Piston.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\_Template_Jet.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\_Template_Airliner.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\MyCompany_Simple_Aircraft_AI.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\MyCompany_Gauge_Aircraft_AI.wwu" DateLow="1675686330" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\DA62_SDK_AIRCRAFT_AI.wwu" DateLow="1689095250" DateHigh="0"/>
+	<ValidationCacheItem File="E:\MSFS SDK\Samples\Wwise\WwiseSampleProject\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\CabriG2_SDK_AIRCRAFT_AI.wwu" DateLow="1675686330" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1660214136" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Triggers\Default Work Unit.wwu" DateLow="1660214136" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Switches\surface.wwu" DateLow="1660214136" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Switches\Misc.wwu" DateLow="1669808974" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Switches\levers.wwu" DateLow="1669808974" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Switches\flight_control.wwu" DateLow="1669808974" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Switches\Default Work Unit.wwu" DateLow="1660214136" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\States\flow_states.wwu" DateLow="1669808974" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\States\Default Work Unit.wwu" DateLow="1660214136" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\States\aircraft.wwu" DateLow="1660214136" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1660214136" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\SoundBanks\Headwind.wwu" DateLow="1738094670" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\SoundBanks\Default Work Unit.wwu" DateLow="1669808974" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\SoundBanks\aircrafts.wwu" DateLow="1738180073" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\SoundBanks\aircraft_ai.wwu" DateLow="1738180073" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Queries\Factory Queries.wwu" DateLow="1660214134" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Queries\Default Work Unit.wwu" DateLow="1738180009" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Presets\Factory Spatial Audio.wwu" DateLow="1660214134" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Presets\Default Work Unit.wwu" DateLow="1660214134" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Modulators\Default Work Unit.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Modulators\aircraft.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1675686330" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Game Parameters\simvar.wwu" DateLow="1675686330" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Game Parameters\npc.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Game Parameters\gui.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Game Parameters\gplay.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Game Parameters\environment.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Game Parameters\engine.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Game Parameters\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Game Parameters\control_signal.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Game Parameters\_NOT_IN_GAME\Factory SoundSeed Air Game Syncs.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\FlightSim.wproj" DateLow="1738092484" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\FlightSim.accs.wsettings" DateLow="1738180073" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Events\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\MyCompany_Simple_Aircraft.wwu" DateLow="1738179973" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\MyCompany_Gauge_Aircraft.wwu" DateLow="1738179981" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo.wwu" DateLow="1738094670" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\DA62_SDK_AIRCRAFT.wwu" DateLow="1738179993" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\CabriG2_SDK_AIRCRAFT.wwu" DateLow="1738180009" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\MyCompany_Simple_Aircraft_AI.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\MyCompany_Gauge_Aircraft_AI.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\DA62_SDK_AIRCRAFT_AI.wwu" DateLow="1675686330" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\CabriG2_SDK_AIRCRAFT_AI.wwu" DateLow="1675686330" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Effects\reverb_roomverb.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Effects\reverb_convolution.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Effects\meter.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Effects\flanger.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Effects\eq.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Effects\distortion.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Effects\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Effects\_NOT_IN_GAME\Factory Effects.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Conversion Settings\Default Work Unit.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Audio Devices\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Attenuations\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Attenuations\aircraft.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo.wwu" DateLow="1738179958" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\_Templates.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\_Template_Turboprop.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\_Template_Piston.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\_Template_Jet.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\_Template_Airliner.wwu" DateLow="1660214122" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\MyCompany_Simple_Aircraft_AI.wwu" DateLow="1669808968" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\MyCompany_Gauge_Aircraft_AI.wwu" DateLow="1675686330" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\DA62_SDK_AIRCRAFT_AI.wwu" DateLow="1689095250" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Projects\wwise\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI\CabriG2_SDK_AIRCRAFT_AI.wwu" DateLow="1675686330" DateHigh="0"/>
+</ValidationCache>

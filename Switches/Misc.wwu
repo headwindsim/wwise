@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DA490C26-C908-45B9-8E6C-C7FA8133C873}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Misc" ID="{DA490C26-C908-45B9-8E6C-C7FA8133C873}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="engine_temperature" ID="{BABC9A12-CC8D-4FA7-95B3-1D6EB4B069DC}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="cold" ID="{9E2B60FD-B866-4898-A27A-2ABFB1EB4A94}"/>
+						<Switch Name="warm" ID="{7867A096-446C-4B6F-A93B-57441BF340AA}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="SIMVAR_RECIP_ENG_CYLINDER_HEAD_TEMPERATURE" ID="{FDA3008B-3305-422D-8086-80DED4C0589A}"/>
+						<Curve Name="" ID="{6C689406-E1F2-42EB-B1B2-31E4D740B573}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>30</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

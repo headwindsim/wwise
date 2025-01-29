@@ -1,0 +1,3490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9A929272-DABD-4CC3-A61C-0D226D2CD79B}" SchemaVersion="97">
+	<Effects>
+		<WorkUnit Name="flanger" ID="{9A929272-DABD-4CC3-A61C-0D226D2CD79B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="flg_outdoor_aircraft_generic" ID="{A2B3EAFB-8CF6-47FA-A88A-59AD9BDE1D70}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.8"/>
+						<Property Name="DryLevel" Type="Real32" Value="0.24"/>
+						<Property Name="FeedBackLevel" Type="Real32" Value="-0.1"/>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.2"/>
+						<Property Name="ModDepth" Type="Real32" Value="100"/>
+						<Property Name="ModFrequency" Type="Real32" Value="0.02">
+							<RTPCList>
+								<RTPC Name="" ID="{E33205B6-4BDA-4363-856C-055BD1A2CD87}" ShortID="876938038">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="lfo_distance_modulator_flanger" ID="{9677D021-E8BD-4590-84B7-E8FF8F07340E}" WorkUnitID="{C9AD9230-3C00-4E5E-9A98-CBFFD5B51131}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{CD1B1015-6D12-4D50-A7D9-49B24CD3DE60}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.01</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0.2</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModPWM" Type="Real32" Value="27"/>
+						<Property Name="ModSmoothing" Type="Real32" Value="20"/>
+						<Property Name="OutputLevel" Type="Real32" Value="9"/>
+						<Property Name="ProcessCenter" Type="bool" Value="True"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_aircraft_low_end" ID="{4DE5DD17-5A99-4D75-99E1-B91F983D3895}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.8"/>
+						<Property Name="DryLevel" Type="Real32" Value="0.3"/>
+						<Property Name="EnableLFO" Type="bool" Value="False"/>
+						<Property Name="FeedBackLevel" Type="Real32" Value="0.01"/>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.1"/>
+						<Property Name="ModDepth" Type="Real32" Value="100"/>
+						<Property Name="ModFrequency" Type="Real32" Value="0.02">
+							<RTPCList>
+								<RTPC Name="" ID="{4466F643-48EA-41DA-9823-75CC5010A906}" ShortID="743982723">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="lfo_distance_modulator_flanger" ID="{9677D021-E8BD-4590-84B7-E8FF8F07340E}" WorkUnitID="{C9AD9230-3C00-4E5E-9A98-CBFFD5B51131}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{FA20CE2E-78F8-4BB7-9462-426EE450A4A9}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.01</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0.2</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModPWM" Type="Real32" Value="27"/>
+						<Property Name="ModSmoothing" Type="Real32" Value="20"/>
+						<Property Name="OutputLevel" Type="Real32" Value="9"/>
+						<Property Name="ProcessCenter" Type="bool" Value="True"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outside_ground_reflexion_combfilter_jet" ID="{3B312DCD-8FB7-450B-8E95-6650E37A7A50}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="2.2"/>
+						<Property Name="ModDepth" Type="Real32" Value="100">
+							<RTPCList>
+								<RTPC Name="" ID="{CE3CB78E-34D8-4FC7-A8AE-1E7C1D007B3A}" ShortID="1017966743">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{835142A0-0F86-4DB3-982B-2039F5FCD476}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1300</XPos>
+												<YPos>-100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModPhaseSpread" Type="Real32" Value="180"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="ProcessCenter" Type="bool" Value="True"/>
+						<Property Name="WetDryMix" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{2C1BE50A-FCD1-4AB2-A5DA-947CF85EA7F8}" ShortID="592507554">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SIMVAR_AIRSPEED_TRUE" ID="{23F33E5A-B0EE-4CD5-AE2C-178797545D5C}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{BB773C75-8336-477C-BEE5-36B1F43D55EC}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>200</XPos>
+												<YPos>40</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1000</XPos>
+												<YPos>40</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{8A106576-9551-4263-A7E2-41B06298A70F}" ShortID="368556625">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_MACH_CONE_ZONE" ID="{527FCF08-3957-4CB1-AD09-5552A5ABC028}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F0E344A1-9E49-49ED-9089-0A716F2162F1}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{1E3043F2-2ECD-4502-8AA1-C315AF85A6BA}" ShortID="414650181">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{DDCCB10A-413C-49C7-A35B-50EDA4ED3B58}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>29.999</XPos>
+												<YPos>-100</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>4000</XPos>
+												<YPos>-20</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>-20</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_ground_reflexion_combfilter_delay_1" ID="{E53A9BB1-1FB2-4FEE-BD11-3D517DAFCBCB}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="1"/>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{E1EEF5F4-9EE5-4593-888D-C58C1A16CD54}" ShortID="352677787">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{E28CC6FA-6B38-4A31-B280-D6FBAEC418B2}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.001</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0.002</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.001</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.2"/>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{C90484E4-3F4D-43A7-9E0D-14C0B13945A6}" ShortID="423093544">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{6A69C25A-CD71-4CC6-87B5-62D424EE97EB}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0.001</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.001</XPos>
+												<YPos>10</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.013</XPos>
+												<YPos>20</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.071</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.25</XPos>
+												<YPos>50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.35</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.47</XPos>
+												<YPos>70</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.59</XPos>
+												<YPos>80</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.74</XPos>
+												<YPos>90</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{BA7CF311-EE5C-4A21-AD68-F95C53854315}" ShortID="482671736">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{7E965CDD-8CA3-49B0-AFCF-B1F70F9907E7}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{C12798B3-36D1-4D36-8E8A-244D28E91E0A}" ShortID="298864750">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{9BA33634-CE70-4497-AAB0-F1477D5E9C92}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_ground_reflexion_combfilter_delay_2" ID="{AE7F4C59-5956-4455-B308-03AAF44FC74C}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="2"/>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{47A557FE-B95D-4A55-B84E-2D1C3673A8AC}" ShortID="752387246">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{62CD0E8A-1EF2-4961-9AAF-3A7B479A12E7}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1.999</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.999</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>7.999</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.2"/>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{1540A3FC-3D30-42B2-A923-E47FD53AE8EA}" ShortID="49798706">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{6795C97D-CED8-48DD-AD73-B38BFD066DBF}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.02</XPos>
+												<YPos>10</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.16</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.3</XPos>
+												<YPos>40</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.5</XPos>
+												<YPos>50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.69</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.92</XPos>
+												<YPos>70</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.25</XPos>
+												<YPos>80</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.55</XPos>
+												<YPos>90</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{70D81F13-B312-4812-A929-00102E5CB79C}" ShortID="465484651">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{ADB208FA-8734-48B1-AC93-FE477E01D5AE}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{93BF0AE3-3562-49C8-B26D-DE4BFAF14BA9}" ShortID="390787569">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{FD13F58B-937F-455C-85DA-4814E2C5D3B3}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_ground_reflexion_combfilter_delay_4" ID="{34BA8A0C-F83F-4134-A8FB-009F9A8D211C}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="4"/>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{3C724B23-6883-46B5-9025-2D43BE57999B}" ShortID="637465865">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{CBC086B0-F8FB-4E08-9F2D-C932B9AE44C3}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>3.999</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.2"/>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{D395132F-BCFA-4CDF-B13B-907F2AA67459}" ShortID="722015695">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{4197E247-6FCD-4821-8BA3-3453CC12CF7A}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.03</XPos>
+												<YPos>10</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.13</XPos>
+												<YPos>20</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.35</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.63</XPos>
+												<YPos>40</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5</XPos>
+												<YPos>50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5.38</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5.88</XPos>
+												<YPos>70</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>6.49</XPos>
+												<YPos>80</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>7.25</XPos>
+												<YPos>90</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>8</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{11EFFEC2-E13D-4BB6-BF7F-046D9590BBB3}" ShortID="824579176">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{293B9E68-5AF6-41E0-AB17-89DBD52AFE3B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{A4CCACCB-77CF-4BC4-9384-BF706D6976DD}" ShortID="772545204">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{D7D03582-C4F7-4446-BDD7-447C281EA470}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outside_ground_reflexion_combfilter_warbirds" ID="{B0773C7A-5AE2-4B9D-BD81-85ED95C3772C}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="2.2"/>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.5"/>
+						<Property Name="ModDepth" Type="Real32" Value="100">
+							<RTPCList>
+								<RTPC Name="" ID="{DAB21916-0302-455E-AB04-43B968EBC5AF}" ShortID="492374601">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{66356550-E1B5-4A22-9B56-0010304A1258}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>500</XPos>
+												<YPos>-50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>-50</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModPhaseSpread" Type="Real32" Value="180"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="ProcessCenter" Type="bool" Value="True"/>
+						<Property Name="WetDryMix" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{88259281-7A73-4833-8944-D83D385CDA5E}" ShortID="621209140">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_MACH_CONE_ZONE" ID="{527FCF08-3957-4CB1-AD09-5552A5ABC028}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{3A4C73BA-C121-403E-8E6B-C260C42A3CF5}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{D66E138E-AA38-4C09-A184-B2C3F30E562A}" ShortID="40821488">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SIMVAR_AIRSPEED_TRUE" ID="{23F33E5A-B0EE-4CD5-AE2C-178797545D5C}" WorkUnitID="{160297A3-539B-416D-BB27-309DA15AE344}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B7BB6FA5-BE7B-4991-B2C2-CD8369823149}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1000</XPos>
+												<YPos>30</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{7D4E9FD3-BA30-4088-B2CD-B3E191D46492}" ShortID="252445396">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{9BBA40EB-42C2-4002-9666-115CFE04F534}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>29.999</XPos>
+												<YPos>-100</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>200</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>500</XPos>
+												<YPos>-50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>-50</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_ground_reflexion_combfilter_delay_1_pistons" ID="{30B7D868-5E18-44D5-8264-30DADC6F894F}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="1"/>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{11AAE87F-E810-453C-AA22-8B7ED6D7B9F5}" ShortID="966711567">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{3A94BA3D-7BB5-4613-BEEE-0A9EE47FE3DE}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.001</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0.002</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.001</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.35"/>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{F91B9807-7ABB-459B-B6AB-1AEE1B0F401A}" ShortID="276744636">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{88FD5F63-7A6D-4A12-8651-424DD6565EBA}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0.001</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.001</XPos>
+												<YPos>10</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.013</XPos>
+												<YPos>20</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.071</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.25</XPos>
+												<YPos>50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.35</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.47</XPos>
+												<YPos>70</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.59</XPos>
+												<YPos>80</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.74</XPos>
+												<YPos>90</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{36E81618-0527-418C-9118-B712E8710DEE}" ShortID="855239310">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{780D6368-EBAD-468E-B181-6925876E4AF8}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{4815BC28-3505-400E-882A-194D5B66D388}" ShortID="402369232">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{ECCB00AE-E471-4C88-A44F-780FA7245DB2}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_ground_reflexion_combfilter_delay_2_pistons" ID="{CD2205B0-8E8D-4987-8E7B-AB3D708DC371}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="2"/>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{09718B58-E2E7-4731-AF30-BD9C39FD251C}" ShortID="980457935">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{E69A1C0B-4DCA-41D9-AEB2-D9CD2B15B9E6}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1.999</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.999</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>7.999</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.35"/>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{437DB179-0C5C-4ABE-9FC9-C5215632CE99}" ShortID="648265087">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{70309FD8-2172-4B13-8D95-02CB2963808C}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.02</XPos>
+												<YPos>10</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.16</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.3</XPos>
+												<YPos>40</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.5</XPos>
+												<YPos>50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.69</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.92</XPos>
+												<YPos>70</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.25</XPos>
+												<YPos>80</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.55</XPos>
+												<YPos>90</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{FBCF952C-68CB-4FF2-B742-BD47E4F719FE}" ShortID="454075775">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B536F8A3-6037-477E-A27A-5A54BCF8DEE3}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{F9CF32ED-3684-43F8-BE10-BF238B0DD5F8}" ShortID="577098673">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F12679A6-5285-4AB4-9B23-90FF012B1161}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_ground_reflexion_combfilter_delay_4_pistons" ID="{62B494F7-DE36-4940-9FAE-2CE9D0806BF3}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="4"/>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{19E22975-FAA7-49A7-A063-C91FA6512710}" ShortID="464026007">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{8A58650C-622A-4DAD-89ED-F3A86E469DE8}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>3.999</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.35"/>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{79ECE672-02E9-4BC1-9D1B-A0A679B9082B}" ShortID="321322836">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{7739BD29-AC7A-4AAB-96C7-186185589BB2}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.03</XPos>
+												<YPos>10</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.13</XPos>
+												<YPos>20</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.35</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.63</XPos>
+												<YPos>40</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5</XPos>
+												<YPos>50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5.38</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5.88</XPos>
+												<YPos>70</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>6.49</XPos>
+												<YPos>80</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>7.25</XPos>
+												<YPos>90</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>8</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{28D1B201-8E13-438B-8AB9-B76450848DD4}" ShortID="101616288">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{D3FEAD6D-07ED-4B08-874D-6E8BF034903C}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{DC902381-106A-4F95-B927-0E2A7483D434}" ShortID="887268296">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{372110CC-C677-43FC-849D-A2A066AEFBD1}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_ground_reflexion_combfilter_delay_1_ff04" ID="{9D08256E-967F-444B-B403-774226C97B3F}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="1"/>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{53E82562-7050-40F4-8660-A4C5DD969A68}" ShortID="909265148">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{0E08C83F-F1BE-4731-AFE4-1236D766472D}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.001</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0.002</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.001</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.4"/>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{B47ED38A-FC62-415E-B9F1-2F352C8DD3A6}" ShortID="694038094">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{87C2DFAA-2FF2-47DD-ACED-70BCAC776439}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0.001</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.001</XPos>
+												<YPos>10</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.013</XPos>
+												<YPos>20</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.071</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.25</XPos>
+												<YPos>50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.35</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.47</XPos>
+												<YPos>70</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.59</XPos>
+												<YPos>80</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.74</XPos>
+												<YPos>90</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{9F26F573-0439-4197-8A29-170BDCFEC1E1}" ShortID="774433552">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B10ACF46-1D9B-44BF-A164-8F664689991F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{6DBC58FF-003D-49CB-9535-02669C701706}" ShortID="771718437">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{3ADC8932-5FAE-41F0-A492-6FACCC6F5C81}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_ground_reflexion_combfilter_delay_2_ff04" ID="{70ABF999-89F2-4744-95B1-6A078773992E}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="2"/>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{B8CED9F9-A8E1-402E-91B1-DB60D31E6FF0}" ShortID="381149451">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{2C60A608-42A7-40EA-96C1-535B053C344E}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1.999</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.999</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>7.999</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.4"/>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{45818894-4641-414E-A44F-EE5B35E4E201}" ShortID="723987465">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{34E32D11-7C8B-49C0-A477-F2EC5623ED55}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.02</XPos>
+												<YPos>10</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.16</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.3</XPos>
+												<YPos>40</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.5</XPos>
+												<YPos>50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.69</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.92</XPos>
+												<YPos>70</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.25</XPos>
+												<YPos>80</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.55</XPos>
+												<YPos>90</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{C07CCE09-5EC0-451A-AC53-04457B23C984}" ShortID="552976660">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{ACA490F1-B446-4684-B568-F3126DABB0FA}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{C79FC2B9-346F-48BB-B257-48C781A43F6E}" ShortID="445747828">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{7DC8226D-0D3C-44E8-8726-09508E1C2C11}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_ground_reflexion_combfilter_delay_4_ff04" ID="{666C728C-22EF-4A71-BF27-F83F5115F4FE}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="4"/>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{2880EF80-0B31-408B-86F9-4D3DAAAC4948}" ShortID="1019688150">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{BBD0CA52-857B-4A42-8EA3-95A2D268C897}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>3.999</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.4"/>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{45D58DC8-847C-4C0C-A7E3-FF9AF710A7B7}" ShortID="547288690">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{09DBC8D9-B8FB-4377-9834-5C79EA86BBBA}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.03</XPos>
+												<YPos>10</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.13</XPos>
+												<YPos>20</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.35</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.63</XPos>
+												<YPos>40</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5</XPos>
+												<YPos>50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5.38</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5.88</XPos>
+												<YPos>70</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>6.49</XPos>
+												<YPos>80</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>7.25</XPos>
+												<YPos>90</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>8</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{4AE02788-4B76-490C-BC78-EBBBAAE3CB10}" ShortID="470872681">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{9E3568C0-04D8-4076-B507-8E63FE4AE4E6}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{1EA81D8D-0D1B-4CB6-80F7-2CFAEB66D15D}" ShortID="534665274">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{2B05A9BD-C54D-4CA9-855D-239B059A0114}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_ground_reflexion_combfilter_delay_1_ff3" ID="{BBEDB718-9733-49AD-B47D-2D1E2A91B42D}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="1"/>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{9787B2A3-3C74-4679-A6EE-DCF9C5FB5943}" ShortID="1003258380">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{2D644618-8A38-4CFB-9071-E81B82E02999}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.001</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0.002</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.001</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.3"/>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{5CADE27A-E191-45F9-825C-74FD5601073F}" ShortID="782177425">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{9EB5A26C-CA55-461E-8045-C8847793B05E}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0.001</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.001</XPos>
+												<YPos>10</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.013</XPos>
+												<YPos>20</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.071</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.25</XPos>
+												<YPos>50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.35</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.47</XPos>
+												<YPos>70</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.59</XPos>
+												<YPos>80</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.74</XPos>
+												<YPos>90</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{C0CEA504-E8CF-4AEC-A19F-1A083B4BADC8}" ShortID="479126407">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{20EA397F-F60C-47F6-BF9D-28DA45E15031}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{8C06D527-56B1-4937-B50F-6D0D3B5CC770}" ShortID="434783465">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{1FB38EF6-F632-4FEB-AB93-343FE805CB81}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.75</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.25</XPos>
+												<YPos>-100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_ground_reflexion_combfilter_delay_2_ff3" ID="{918725E0-0F44-4314-8BAF-69EE86728F1D}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="2"/>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{22060CF2-8C51-46C0-B7B6-7AD65F9426D5}" ShortID="141208376">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{19D14BC3-1D3B-47EB-8A88-396F4DA78015}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1.999</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.999</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>7.999</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.3"/>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{3E74255E-1C98-44E4-B533-CF2CA3D31741}" ShortID="844228412">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{48557A8D-9825-4B0E-8938-ADB685913EAD}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.02</XPos>
+												<YPos>10</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.16</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.3</XPos>
+												<YPos>40</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.5</XPos>
+												<YPos>50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.69</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.92</XPos>
+												<YPos>70</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.25</XPos>
+												<YPos>80</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.55</XPos>
+												<YPos>90</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{9BE2E30F-0502-4B24-97A3-F789F6D3E567}" ShortID="411266556">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{372F2897-78D7-4D97-BE96-EA260537C6B5}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{E0AFB5A1-2F71-4058-95ED-38693791AAD8}" ShortID="509015804">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{3B88EB37-7211-466F-BF14-A5A68DC0063A}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1.75</XPos>
+												<YPos>-100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.25</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.75</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.25</XPos>
+												<YPos>-100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_ground_reflexion_combfilter_delay_4_ff3" ID="{2287B7A2-B9BC-48AB-87FB-882989A4C259}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="4"/>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{39FAD582-CADB-4467-AE56-D74A5402FE90}" ShortID="1006494399">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F84E048B-BA61-4D6C-A1ED-5D742BF1AD33}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>3.999</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.3"/>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{87EF49C3-D949-4306-8E47-31DB51FA262D}" ShortID="406355722">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{68E7DE08-DDE0-45E7-A270-BF07ABB2AE61}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.03</XPos>
+												<YPos>10</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.13</XPos>
+												<YPos>20</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.35</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.63</XPos>
+												<YPos>40</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5</XPos>
+												<YPos>50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5.38</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5.88</XPos>
+												<YPos>70</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>6.49</XPos>
+												<YPos>80</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>7.25</XPos>
+												<YPos>90</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>8</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{256E3CAD-169F-4979-82A9-C332C5AA4A93}" ShortID="818262623">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{85F46230-93C9-4F53-9F7C-E5F2D81B98E6}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>3.75</XPos>
+												<YPos>-100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.25</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{5D141DE2-59B0-449B-A798-612AB7892F99}" ShortID="928329204">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{90522F7B-740B-4B9E-9971-F75110EAE7C1}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_ground_reflexion_combfilter_delay_1_ff1_5" ID="{150F68C6-258D-4C58-A69D-3B22D501E761}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="1"/>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{0201CFA4-2438-410F-99D4-E1AE1AAAB7FF}" ShortID="348132326">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{52C5EAEB-4C81-40A2-8E1C-0DAFD2AD269C}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.001</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0.002</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.001</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.15"/>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{94896DF5-F284-4B11-9741-A2D94716BE49}" ShortID="286852346">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{85845BA6-3483-42D5-BC88-8F56916EA249}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0.001</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.001</XPos>
+												<YPos>10</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.013</XPos>
+												<YPos>20</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.071</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.25</XPos>
+												<YPos>50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.35</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.47</XPos>
+												<YPos>70</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.59</XPos>
+												<YPos>80</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.74</XPos>
+												<YPos>90</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{BFE1FD42-5ABD-4B29-B401-10E6C2C86DCD}" ShortID="505269770">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{71044A3B-03C7-4888-A1F5-A271703FD36A}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{99DF0EE8-5450-4E61-BFD2-888A252AC32E}" ShortID="583617054">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{D308B46E-D371-4D27-B217-B3F7DB14146E}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_ground_reflexion_combfilter_delay_2_ff1_5" ID="{E395D73E-D1C2-40AF-9EA4-A65C5E14185F}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="2"/>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{FF5D3A33-BAA2-45C2-9A35-FFB70A5FC67D}" ShortID="742804469">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{915D1D54-1DBB-44DA-B547-DDAD24E385BE}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1.999</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.999</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>7.999</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.15"/>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{627D81BF-B302-46F1-9F2D-72066179CC89}" ShortID="859428320">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{395E3835-B177-4094-881B-2C170C34BA5B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>2</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.02</XPos>
+												<YPos>10</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.16</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.3</XPos>
+												<YPos>40</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.5</XPos>
+												<YPos>50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.69</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>2.92</XPos>
+												<YPos>70</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.25</XPos>
+												<YPos>80</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>3.55</XPos>
+												<YPos>90</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{D749126D-A724-4E5D-ABE8-3286C396D2B3}" ShortID="36864244">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{3E1E3581-25C4-4D21-AAA3-44357706C367}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{3365BAD1-E1AB-4306-8F42-F2B4604FAE5F}" ShortID="895086173">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{AB74C0E1-CD2E-415B-8B37-C6139FCD266F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="flg_outdoor_ground_reflexion_combfilter_delay_4_ff1_5" ID="{FBB4E404-E991-4533-99AA-1703E5B75F74}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="4"/>
+						<Property Name="DryLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{B087DC03-F18B-48F4-B906-BA1354435BA6}" ShortID="901082571">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A70A99AF-8383-4628-BE43-80C0BFCB7A3D}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>3.999</XPos>
+												<YPos>-1</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FeedForwardLevel" Type="Real32" Value="0.15"/>
+						<Property Name="ModDepth" Type="Real32" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{A7544D98-BC8F-4C24-B399-6AC29D70C866}" ShortID="260546001">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{AEC36D74-E0B1-40A2-B750-7BBCA91DF5A8}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.03</XPos>
+												<YPos>10</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.13</XPos>
+												<YPos>20</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.35</XPos>
+												<YPos>30</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.63</XPos>
+												<YPos>40</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5</XPos>
+												<YPos>50</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5.38</XPos>
+												<YPos>60</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>5.88</XPos>
+												<YPos>70</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>6.49</XPos>
+												<YPos>80</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>7.25</XPos>
+												<YPos>90</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>8</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32" Value="0.002"/>
+						<Property Name="ModPWM" Type="Real32" Value="0"/>
+						<Property Name="ModWaveform" Type="int32" Value="2"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{1138F04A-EBB3-4CBF-B8D2-E263287EA5FF}" ShortID="940065061">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SPP_DISTANCE" ID="{725BFF84-7802-4228-829E-0F43E2AB5928}" WorkUnitID="{05797BE6-8F49-4F46-9DFF-1EA0B1EEBBBC}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{03383269-0C94-4975-974F-D2F4B3FB8ABF}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30000</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{C834ECDF-F783-4C7A-8112-17BFD45A281A}" ShortID="907364866">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="ENV_GROUND_REFLECTION_DELAY" ID="{F3683D5A-3C01-43EF-8053-C6593CF57931}" WorkUnitID="{53AC294C-40DF-4FF3-A7A2-A02A6282BF91}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{ED1484C6-4930-4025-B19E-F7E3F29A606F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>
