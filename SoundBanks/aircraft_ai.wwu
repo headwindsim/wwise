@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{BF4A990C-6EC2-47C1-8D34-7393EDBBDC54}" SchemaVersion="97">
-	<SoundBanks>
-		<WorkUnit Name="aircraft_ai" ID="{BF4A990C-6EC2-47C1-8D34-7393EDBBDC54}" PersistMode="Standalone"/>
-	</SoundBanks>
-</WwiseDocument>

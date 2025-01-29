@@ -2,7 +2,7 @@
 <Project Version="7" InfoFilePath="GeneratedSoundBanks\Windows\SoundbanksInfo.xml" OutputDirectory="..\">
   <ManualPackagingInfo BlockSize="1" UnassignedBanksPackageId="00000000-0000-0000-0000-000000000000" UnassignedStreamsPackageId="00000000-0000-0000-0000-000000000000" UnassignedExternalsPackageId="00000000-0000-0000-0000-000000000000" UnassignedLooseMediaPackageId="00000000-0000-0000-0000-000000000000">
     <Packages>
-      <Package Id="03a3edc4-5459-47bf-9388-d296d12524ba" Name="Headwind_A330neo.PC.PCK">
+      <Package Id="691ab118-f2c2-49e6-bf96-17d42ce71f5c" Name="Headwind_A330neo.PC.PCK">
         <Items>
           <PackageContentItem Id="941818873" Language="SFX" FileName="Headwind_A330neo" InclusionMode="BankAndStreamsAndLooseMedia" />
         </Items>

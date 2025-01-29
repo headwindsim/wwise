@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Headwind_A330neo" ID="{B3A366A9-6F1A-4FE1-B659-D7F833178086}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Headwind_A330neo" ID="{B2C41623-7955-41E9-A853-81699B355B2C}" WorkUnitID="{B2C41623-7955-41E9-A853-81699B355B2C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Asobo_A320_NEO_v1_callout" ID="{48A82FD8-6705-4BE0-9721-B22092EDBEDD}" WorkUnitID="{4FCDE128-1D5F-43A2-964A-60553F91AE56}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

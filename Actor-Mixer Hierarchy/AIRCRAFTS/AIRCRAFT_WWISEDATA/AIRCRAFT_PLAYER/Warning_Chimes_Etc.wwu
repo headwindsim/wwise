@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DDE3D2D4-DC24-4C4D-8028-15E872D165D4}" SchemaVersion="97" RootDocumentID="{84AC98FD-89A6-464A-B192-F766A57754E1}">
+	<AudioObjects>
+		<WorkUnit Name="Warning_Chimes_Etc" ID="{DDE3D2D4-DC24-4C4D-8028-15E872D165D4}" OwnerID="{78276CA8-D487-45F8-AD45-6F4149287C42}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Other" ID="{56E24539-AD4B-4864-96C7-43DEFAD05204}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

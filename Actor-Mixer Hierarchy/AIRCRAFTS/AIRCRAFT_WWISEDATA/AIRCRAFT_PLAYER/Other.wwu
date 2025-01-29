@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{56E24539-AD4B-4864-96C7-43DEFAD05204}" SchemaVersion="97" RootDocumentID="{84AC98FD-89A6-464A-B192-F766A57754E1}">
+	<AudioObjects>
+		<WorkUnit Name="Other" ID="{56E24539-AD4B-4864-96C7-43DEFAD05204}" OwnerID="{DDE3D2D4-DC24-4C4D-8028-15E872D165D4}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="V1" ID="{06DDDB29-AD15-4D24-8A50-2AB944B7CC8F}" ShortID="739710022">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8341C40-AF31-4D5B-9D65-E60D709F4609}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="V1" ID="{D646C202-FF14-4D34-8A4B-65C71AC0F773}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>V1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="V1" ID="{D646C202-FF14-4D34-8A4B-65C71AC0F773}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

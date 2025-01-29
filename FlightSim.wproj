@@ -28,6 +28,7 @@
 						<Value Platform="Windows">256</Value>
 					</ValueList>
 				</Property>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjE3NzU3IiBtYXNrPSJZUVFWMzk0OSIgZW5jPSIwIj48bGljZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAsMTMiIGV4cGlyZXM9IjIwMjUtMDYtMDEiICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFtZT0iTGV2ZWwgQSBMaWNlbnNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjEwLDEzIiBleHBpcmVzPSIyMDI1LTA2LTAxIiAgLz48bGljZW5zZSBpZD0iMjEiIG5hbWU9Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjEwLDEzIiBleHBpcmVzPSIyMDI1LTA2LTAxIiAgLz48bGljZW5zZSBpZD0iNjMiIG5hbWU9Ik1hc3RlcmluZyBTdWl0ZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCwxMyIgZXhwaXJlcz0iMjAyNS0wNi0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjciIG5hbWU9IlNvdW5kU2VlZCBCdW5kbGUgKEltcGFjdCwgQWlyKSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCwxMyIgZXhwaXJlcz0iMjAyNS0wNi0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjYiIG5hbWU9Ild3aXNlIENvbnZvbHV0aW9uIFJldmVyYiIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCwxMyIgZXhwaXJlcz0iMjAyNS0wNi0wMSIgIC8+PHBsdWdpbiBpZD0iMTIxODk2OTkiIG5hbWU9Ik1hc3RlcmluZyBTdWl0ZSIgbGljZW5zZT0iNjMiIC8+PHBsdWdpbiBpZD0iODMyMzA3NSIgbmFtZT0iV3dpc2UgQ29udm9sdXRpb24gUmV2ZXJiIiBsaWNlbnNlPSI2IiAvPjwvcHJvamVjdD4=|rNDw9yXvqmLqvdhHSlISS8WYWuOh78zfnUtb/OAeTEwAfD1HFLdNfsoMRsqCfutB1RvfStIIt3E/eiupxbmTS14dj08qAVvGPRiZKDsJT8vLsIO5BvT0890U+oG8zUDYvUhJfezpxntaQAPRlXjWW1bpOrRAFhGmSBc0G1bydD2d8Bt0Rt76HQL+WsOKzlQj3Q0xda8of7oOv1b1A+qauI7TzSQpq1cAb6tMkWHcFzNgySJEnZBqJGOLLeinyFCD0F+j9gxAsTJWruDAHxYPrmgQe69sv33PWt0/R+QEMNbNpu5KKXI0duq/mBSjPUKc1/fH/FFAOn9nYXlesILbgA=="/>
 				<Property Name="MediaIDsInSingleFile" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
@@ -70,29 +71,6 @@
 					</ValueList>
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2014.1|Build=5248|VersionName=v2014.1.4|Config=Release"/>
-			
-				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjE3NzU3IiBtYXNrPSJZUVFWMzk0OSIgZW5jPSIwIj48bGlj
-ZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAs
-MTMiIGV4cGlyZXM9IjIwMjUtMDYtMDEiICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFt
-ZT0iTGV2ZWwgQSBMaWNlbnNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjEwLDEzIiBl
-eHBpcmVzPSIyMDI1LTA2LTAxIiAgLz48bGljZW5zZSBpZD0iMjEiIG5hbWU9Ik1h
-aW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjEwLDEzIiBleHBpcmVzPSIy
-MDI1LTA2LTAxIiAgLz48bGljZW5zZSBpZD0iNjMiIG5hbWU9Ik1hc3RlcmluZyBT
-dWl0ZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCwxMyIgZXhwaXJlcz0iMjAyNS0w
-Ni0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjciIG5hbWU9IlNvdW5kU2VlZCBCdW5kbGUg
-KEltcGFjdCwgQWlyKSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCwxMyIgZXhwaXJl
-cz0iMjAyNS0wNi0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjYiIG5hbWU9Ild3aXNlIENv
-bnZvbHV0aW9uIFJldmVyYiIgdHlwZT0iMyIgcGxhdGZvcm1zPSIxMCwxMyIgZXhw
-aXJlcz0iMjAyNS0wNi0wMSIgIC8+PHBsdWdpbiBpZD0iMTIxODk2OTkiIG5hbWU9
-Ik1hc3RlcmluZyBTdWl0ZSIgbGljZW5zZT0iNjMiIC8+PHBsdWdpbiBpZD0iODMy
-MzA3NSIgbmFtZT0iV3dpc2UgQ29udm9sdXRpb24gUmV2ZXJiIiBsaWNlbnNlPSI2
-IiAvPjwvcHJvamVjdD4=|rNDw9yXvqmLqvdhHSlISS8WYWuOh78zfnUtb/OAeTEw
-AfD1HFLdNfsoMRsqCfutB1RvfStIIt3E/eiupxbmTS14dj08qAVvGPRiZKDsJT8v
-LsIO5BvT0890U+oG8zUDYvUhJfezpxntaQAPRlXjWW1bpOrRAFhGmSBc0G1bydD2
-d8Bt0Rt76HQL+WsOKzlQj3Q0xda8of7oOv1b1A+qauI7TzSQpq1cAb6tMkWHcFzN
-gySJEnZBqJGOLLeinyFCD0F+j9gxAsTJWruDAHxYPrmgQe69sv33PWt0/R+QEMNb
-Npu5KKXI0duq/mBSjPUKc1/fH/FFAOn9nYXlesILbgA==
-"/>
 			</PropertyList>
 			<MiscSettings>
 				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
@@ -12199,7 +12177,7 @@ Npu5KKXI0duq/mBSjPUKc1/fH/FFAOn9nYXlesILbgA==
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="183">
+				<SharedPropertyList ClassName="SoundSeed Grain" PluginType="2" CompanyID="0" PluginID="183">
 					<PropertyList>
 						<Property Name="Amplitude" Type="Real32">
 							<ValueList>
@@ -13083,7 +13061,7 @@ Npu5KKXI0duq/mBSjPUKc1/fH/FFAOn9nYXlesILbgA==
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="" PluginType="0" CompanyID="0" PluginID="185">
+				<SharedPropertyList ClassName="ParameterModulatorAssociation" PluginType="0" CompanyID="0" PluginID="185">
 					<PropertyList>
 						<Property Name="ModDisplayName" Type="string">
 							<ValueList>
@@ -15008,14 +14986,6 @@ Npu5KKXI0duq/mBSjPUKc1/fH/FFAOn9nYXlesILbgA==
 						</PropertyList>
 					</WorkUnit>
 				</PhysicalFolder>
-				<PhysicalFolder Path="Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI">
-					<WorkUnit Name="AIRCRAFT_AI" ID="{205C8CB7-B34F-4803-80C6-5B3D2FAD333A}" PersistMode="Standalone">
-						<PropertyList>
-							<Property Name="Color" Type="int16" Value="24"/>
-							<Property Name="OverrideColor" Type="bool" Value="True"/>
-						</PropertyList>
-					</WorkUnit>
-				</PhysicalFolder>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER">
 					<WorkUnit Name="AIRCRAFT_PLAYER" ID="{D7361C2C-7558-4E34-BF94-78BCD63A4453}" PersistMode="Standalone"/>
 				</PhysicalFolder>
@@ -15050,14 +15020,6 @@ Npu5KKXI0duq/mBSjPUKc1/fH/FFAOn9nYXlesILbgA==
 					<WorkUnit Name="AIRCRAFT_WWISEDATA" ID="{83FB97E0-B7DE-41E6-8BC4-D33E7091FB0E}" PersistMode="Standalone">
 						<PropertyList>
 							<Property Name="Color" Type="int16" Value="9"/>
-							<Property Name="OverrideColor" Type="bool" Value="True"/>
-						</PropertyList>
-					</WorkUnit>
-				</PhysicalFolder>
-				<PhysicalFolder Path="Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_AI">
-					<WorkUnit Name="AIRCRAFT_AI" ID="{70D569CA-3E4B-43EF-AC20-80C89D5ABAF3}" PersistMode="Standalone">
-						<PropertyList>
-							<Property Name="Color" Type="int16" Value="24"/>
 							<Property Name="OverrideColor" Type="bool" Value="True"/>
 						</PropertyList>
 					</WorkUnit>

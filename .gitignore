@@ -1,2 +1,8 @@
-.cache
-GeneratedSoundBanks
+# Wwise
+.backup*
+.cache*
+*.akd
+*.prof
+*.validationcache
+*.wsettings
+IncrementalSoundBankData.xml

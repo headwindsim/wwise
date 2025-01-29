@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>F:\Development\Flight Simulator\Headwind Simulations\wwise\</ProjectRoot>
+		<SourceFilesRoot>F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>F:\Development\Flight Simulator\Headwind Simulations\wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>F:\Development\Flight Simulator\Headwind Simulations\wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="941818873" GUID="{B3A366A9-6F1A-4FE1-B659-D7F833178086}" Language="SFX">
+			<ObjectPath>\SoundBanks\Headwind\Headwind_A330neo</ObjectPath>
+			<ShortName>Headwind_A330neo</ShortName>
+			<Path>Headwind_A330neo.bnk</Path>
+			<IncludedEvents>
+				<Event Id="469112467" Name="Play_Asobo_A320_NEO_v1_callout" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_v1_callout" GUID="{48A82FD8-6705-4BE0-9721-B22092EDBEDD}" MaxAttenuation="3.000000" DurationType="OneShot" DurationMin="0.886125" DurationMax="0.886125">
+					<IncludedMemoryFiles>
+						<File Id="750176555" Language="SFX">
+							<ShortName>V1.wav</ShortName>
+							<Path>SFX\V1_78BD8C0F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
