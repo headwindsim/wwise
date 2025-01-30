@@ -1,6 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	469112467	Play_Asobo_A320_NEO_v1_callout			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_v1_callout	
 
+Effect plug-ins	ID	Name	Type				Notes
+	2995775460	Room_Small	Wwise RoomVerb			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	750176555	V1	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\V1_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\Other\V1		34092
 
