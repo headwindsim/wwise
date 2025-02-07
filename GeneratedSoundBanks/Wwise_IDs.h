@@ -13,6 +13,24 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_5_330 = 2945100741U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_10_330 = 888416389U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_20_330 = 2254555400U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_30_330 = 3218031555U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_40_330 = 444838822U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_50_330 = 528124601U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_60_330 = 4046918492U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_70_330 = 1252311223U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_80_330 = 2016864458U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_90_330 = 3226714269U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_100_330 = 1103366649U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_200_330 = 3297248194U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_300_330 = 2294834275U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_400_330 = 1008232572U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_500_330 = 2681380853U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_1000_330 = 918556341U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_2000_330 = 2118638288U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_2500_330 = 1591235717U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_V1_CALLOUT = 469112467U;
     } // namespace EVENTS
 

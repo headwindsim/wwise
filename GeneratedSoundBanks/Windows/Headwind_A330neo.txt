@@ -1,9 +1,45 @@
 Event	ID	Name			Wwise Object Path	Notes
+	444838822	Play_Asobo_A320_NEO_40_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_40_330	
 	469112467	Play_Asobo_A320_NEO_v1_callout			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_v1_callout	
+	528124601	Play_Asobo_A320_NEO_50_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_50_330	
+	888416389	Play_Asobo_A320_NEO_10_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_10_330	
+	918556341	Play_Asobo_A320_NEO_1000_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_1000_330	
+	1008232572	Play_Asobo_A320_NEO_400_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_400_330	
+	1103366649	Play_Asobo_A320_NEO_100_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_100_330	
+	1252311223	Play_Asobo_A320_NEO_70_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_70_330	
+	1591235717	Play_Asobo_A320_NEO_2500_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_2500_330	
+	2016864458	Play_Asobo_A320_NEO_80_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_80_330	
+	2118638288	Play_Asobo_A320_NEO_2000_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_2000_330	
+	2254555400	Play_Asobo_A320_NEO_20_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_20_330	
+	2294834275	Play_Asobo_A320_NEO_300_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_300_330	
+	2681380853	Play_Asobo_A320_NEO_500_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_500_330	
+	2945100741	Play_Asobo_A320_NEO_5_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_5_330	
+	3218031555	Play_Asobo_A320_NEO_30_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_30_330	
+	3226714269	Play_Asobo_A320_NEO_90_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_90_330	
+	3297248194	Play_Asobo_A320_NEO_200_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_200_330	
+	4046918492	Play_Asobo_A320_NEO_60_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_60_330	
 
 Effect plug-ins	ID	Name	Type				Notes
 	2995775460	Room_Small	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	110430602	20_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\20_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\20_330		21461
+	228404689	400_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\400_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\400_330		29893
+	298363345	50_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\50_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\50_330		22536
+	438994954	100_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\100_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\100_330		27892
+	466881791	80_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\80_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\80_330		23834
+	533882150	500_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\500_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\500_330		32535
+	596089802	10_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\10_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\10_330		23841
+	598804854	30_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\30_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\30_330		23397
+	672717210	2000_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\2000_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\2000_330		30716
+	709150684	200_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\200_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\200_330		25806
 	750176555	V1	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\V1_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\Other\V1		34092
+	764682260	1000_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\1000_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\1000_330		34077
+	914690917	2500_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\2500_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\2500_330		46833
+	922878155	90_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\90_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\90_330		25923
+	928569566	300_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\300_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\300_330		27714
+	990047450	40_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\40_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\40_330		24181
+	1019305597	60_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\60_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\60_330		23433
+	1023105725	70_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\70_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\70_330		28371
+	1032449126	5_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\5_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\5_330		26367
 
