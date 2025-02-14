@@ -8,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1103366649	Play_Asobo_A320_NEO_100_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_100_330	
 	1252311223	Play_Asobo_A320_NEO_70_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_70_330	
 	1591235717	Play_Asobo_A320_NEO_2500_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_2500_330	
+	1764949545	Play_Asobo_A320_NEO_Rubber_Duck			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_Rubber_Duck	
 	2016864458	Play_Asobo_A320_NEO_80_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_80_330	
 	2118638288	Play_Asobo_A320_NEO_2000_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_2000_330	
 	2254555400	Play_Asobo_A320_NEO_20_330			\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_20_330	
@@ -31,6 +32,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	533882150	500_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\500_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\500_330		32535
 	596089802	10_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\10_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\10_330		23841
 	598804854	30_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\30_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\30_330		23397
+	599794847	rubber-duck-single-squeak	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\rubber-duck-single-squeak_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\Misc\rubber-duck-single-squeak		44516
 	672717210	2000_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\2000_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\2000_330		30716
 	709150684	200_330	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\200_330_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\GPWS\200_330		25806
 	750176555	V1	F:\Development\Flight Simulator\Headwind Simulations\wwise\.cache\Windows\SFX\V1_78BD8C0F.wem		\Actor-Mixer Hierarchy\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\3D\Warning_Chimes_Etc\Other\V1		34092

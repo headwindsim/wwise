@@ -6,6 +6,7 @@
 				<SoundBank Name="Headwind_A330neo" ID="{B3A366A9-6F1A-4FE1-B659-D7F833178086}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Asobo_A320_NEO_80_330" ID="{4E8A247C-ABDC-40A6-8667-C01B4D051F23}" WorkUnitID="{4FCDE128-1D5F-43A2-964A-60553F91AE56}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Asobo_A320_NEO_Rubber_Duck" ID="{951D7A44-BB8E-40D3-BD89-3C916F03B829}" WorkUnitID="{4FCDE128-1D5F-43A2-964A-60553F91AE56}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Asobo_A320_NEO_10_330" ID="{8D2328AD-B347-428A-A012-D672E791739B}" WorkUnitID="{4FCDE128-1D5F-43A2-964A-60553F91AE56}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Asobo_A320_NEO_5_330" ID="{D2E09DDE-5040-4351-8CDE-81FCB65BFEB1}" WorkUnitID="{4FCDE128-1D5F-43A2-964A-60553F91AE56}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Asobo_A320_NEO_50_330" ID="{E951D21C-ED58-45F5-A972-D6EC3EDC4CBE}" WorkUnitID="{4FCDE128-1D5F-43A2-964A-60553F91AE56}" Origin="Manual" Filter="7"/>

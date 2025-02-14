@@ -160,6 +160,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1764949545" Name="Play_Asobo_A320_NEO_Rubber_Duck" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_Rubber_Duck" GUID="{951D7A44-BB8E-40D3-BD89-3C916F03B829}" MaxAttenuation="3.000000" DurationType="OneShot" DurationMin="1.315833" DurationMax="1.315833">
+					<IncludedMemoryFiles>
+						<File Id="599794847" Language="SFX">
+							<ShortName>rubber-duck-single-squeak.wav</ShortName>
+							<Path>SFX\rubber-duck-single-squeak_78BD8C0F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="469112467" Name="Play_Asobo_A320_NEO_v1_callout" ObjectPath="\Events\AIRCRAFTS\AIRCRAFT_WWISEDATA\AIRCRAFT_PLAYER\Headwind_A330neo\Play_Asobo_A320_NEO_v1_callout" GUID="{48A82FD8-6705-4BE0-9721-B22092EDBEDD}" MaxAttenuation="3.000000" DurationType="OneShot" DurationMin="0.886125" DurationMax="0.886125">
 					<IncludedMemoryFiles>
 						<File Id="750176555" Language="SFX">

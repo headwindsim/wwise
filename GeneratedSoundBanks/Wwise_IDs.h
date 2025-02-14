@@ -31,6 +31,7 @@ namespace AK
         static const AkUniqueID PLAY_ASOBO_A320_NEO_1000_330 = 918556341U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_2000_330 = 2118638288U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_2500_330 = 1591235717U;
+        static const AkUniqueID PLAY_ASOBO_A320_NEO_RUBBER_DUCK = 1764949545U;
         static const AkUniqueID PLAY_ASOBO_A320_NEO_V1_CALLOUT = 469112467U;
     } // namespace EVENTS
 

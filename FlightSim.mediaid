@@ -269,6 +269,12 @@
             <Hash Platform="Windows" Value="2025688079" />
           </WObject>
         </File>
+        <File Name="rubber-duck-single-squeak.wav">
+          <WObject ID="{088F2F87-D086-4BA1-8872-BBC4555A2056}">
+            <MediaID ID="599794847" />
+            <Hash Platform="Windows" Value="2025688079" />
+          </WObject>
+        </File>
         <File Name="V1.wav">
           <WObject ID="{D646C202-FF14-4D34-8A4B-65C71AC0F773}">
             <MediaID ID="750176555" />

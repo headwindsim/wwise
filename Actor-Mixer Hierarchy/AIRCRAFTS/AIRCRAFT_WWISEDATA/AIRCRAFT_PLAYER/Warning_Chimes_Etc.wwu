@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="Other" ID="{56E24539-AD4B-4864-96C7-43DEFAD05204}" PersistMode="Reference"/>
 				<WorkUnit Name="GPWS" ID="{B21304E3-CB93-4017-BD2A-B810AC38CDCD}" PersistMode="Reference"/>
+				<WorkUnit Name="Misc" ID="{61D1A705-2624-4141-AD42-25441F3D1B78}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
